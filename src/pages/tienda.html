@@ -1,0 +1,1082 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../../CSS/main.css" type="text/css" />
+    <meta name="name" content="Atlas Tech" />
+    <meta name="description" content="Tienda de Atlas Tech - Tu tienda" />
+    <meta name="keywords" content="Tecnologia, Desktop, Notebook, AMD, Intel, Minado, Placa de Video" />
+    <title>ATLAS TECH | Tienda</title>
+  </head>
+  <body class="body">
+    <!--Header-->
+    <header class="header">
+      <!--Navbar-->
+      <div class="header__contenedor">
+        <nav class="navbar navbar-expand-lg bg-transparent header__nav">
+          <div class="container-fluid">
+            <!--Logo-Name-->
+            <a class="navbar-brand d-flex align-items-center header__logo" href="../../index.html">
+              <img src="../assets/images/logoNuevo_negro.png" alt="logo" class="d-inline-block align-text-top me-3 header__img" />
+              <p class="m-0 p-0 display-1 color--blanco header__name"><strong>ATLAS TECH</strong></p>
+            </a>
+            <button class="navbar-toggler header__btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon header__burgerMenu"></span>
+            </button>
+            <!--Navbar-Menu-->
+            <div class="collapse navbar-collapse justify-content-end header__menu" id="navbarNav">
+              <ul class="navbar-nav align-items-center header__lista">
+                <li class="nav-item ms-3 header__item">
+                  <a class="nav-link color--blanco header__link" href="../../index.html">INICIO</a>
+                </li>
+                <li class="nav-item ms-3 header__item">
+                  <a class="nav-link color--turquesa header__link" href="#">TIENDA</a>
+                </li>
+                <li class="nav-item ms-3 header__item">
+                  <a class="nav-link color--blanco header__link" href="nosotros.html">NOSOTROS</a>
+                </li>
+                <li class="nav-item ms-3 header__item">
+                  <a class="nav-link color--blanco header__link" href="contacto.html">CONTACTO</a>
+                </li>
+                <li class="nav-item ms-3 header__item">
+                  <a class="nav-link color--blanco header__link" href="ayuda.html">AYUDA</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <!--Publicidad-->
+      <section class="slide">
+        <div class="container-fluid p-0 m-0 slide__contenedor">
+          <div id="carouselExampleControls" class="carousel slide slide__carousel" data-bs-ride="carousel">
+            <div class="carousel-inner slide__carouselContenedor">
+              <div class="carousel-item active slide__item">
+                <img src="../assets/images/publicidadUno.jpg" class="d-block w-100" id="img" alt="AquiIranLasPromos" />
+              </div>
+              <div class="carousel-item slide__item">
+                <img src="../assets/images/publicidadDos.jpg" class="d-block w-100" id="img" alt="AquiIranLasPromos" />
+              </div>
+              <div class="carousel-item slide__item">
+                <img src="../assets/images/publicidadTres.jpg" class="d-block w-100" id="img" alt="AquiIranLasPromos" />
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </section>
+      <!--Tienda-->
+      <section class="tienda pj-7">
+        <div class="container tienda__contenedor">
+          <h1 class="text-center display-1 fw-bold tienda__titulo"><strong>Nuestra Tienda</strong></h1>
+          <div class="row tienda__fila">
+            <!--Nuevos-Ingresos-->
+            <h2 class="text-center display-3 fw-bold tienda__tituloProductos">Nuevos Ingresos</h2>
+            <div class="col-xxl-4 col-sm-6 col tienda__columna d-flex justify-content-center">
+              <!--Card-->
+              <div class="card tienda__tarjeta align-items-center">
+                <img src="../assets/images/amdRyzen55600X.jpg" class="card-img-top tarjeta__img" alt="Ryzen5" />
+                <div class="card-body d-flex flex-column align-items-center tarjeta__body">
+                  <h5 class="card-title text-center tarjeta__titulo">AMD Ryzen5 5600X</h5>
+                  <p class="card-text tarjeta__txt"></p>
+                  <!--Modal-->
+                  <button type="button" class="btn btn-primary tarjeta__btn" data-bs-toggle="modal" data-bs-target="#staticBackdropOne"><p class="text-center fs-2 m-0 p-0">Mas detalles</p></button>
+                  <div class="modal fade tarjeta__modal" id="staticBackdropOne" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                      <div class="modal-content tarjeta__modalContenedor">
+                        <div class="modal-header tarjeta__modalHeader">
+                          <h5 class="modal-title display-6 text-center tarjeta__modalTitulo" id="staticBackdropLabel">AMD Ryzen5 5600X</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body tarjeta__modalBody">
+                          <div class="row tarjeta__modalFila">
+                            <div class="col-md-6 tarjeta__modalColumna">
+                              <img src="../assets/images/amdRyzen55600X.jpg" alt="Ryzen5" class="img-fluid tarjeta__modalImg" />
+                            </div>
+                            <div class="col-md-6 d-flex flex-column justify-content-center tarjeta__modalColumna">
+                              <span><p class="text-center tarjeta__modalPrecioTitulo">Precio:</p></span>
+                              <p class="tarjeta__modalPrecio text-center"><strong>$XXX.XXX</strong></p>
+                            </div>
+                            <div class="col-12 py-3">
+                              <div class="tarjeta__modalTituloDescripcion p-0 m-0">
+                                <h5 class="tarjeta__modalTitulo--mod fs-1 text-center">Descripcion</h5>
+                                <p><strong>Especificaciones:</strong></p>
+                                <div class="tarjeta__modalDescripcion">
+                                  <p><strong>NOTA: El CPU no posee graficos integrados</strong></p>
+                                  <p><strong># de núcleos de CPU:</strong> 6</p>
+                                  <p><strong># de hilos:</strong> 12</p>
+                                  <p><strong>Reloj base:</strong> 3.7GHz</p>
+                                  <p><strong>Reloj de aumento máx.:</strong> Hasta 4.6GHz</p>
+                                  <p><strong>Caché L2:</strong> 3MB</p>
+                                  <p><strong>Caché L3:</strong> 32MB</p>
+                                  <p><strong>CPU Socket:</strong> AM4</p>
+                                  <p><strong>TDP:</strong> 65W</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer tarjeta__modalFooter">
+                          <button type="button" class="btn btn-secondary tarjeta__modalBtnCerrar" data-bs-dismiss="modal"><p class="fs-3 m-0 p-0">Cerrar</p></button>
+                          <button type="button" class="btn btn-primary tarjeta__modalBtnComprar"><p class="fs-3 m-0 p-0">Comprar</p></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--Modal-->
+                </div>
+                <!--Card-->
+              </div>
+            </div>
+            <div class="col-xxl-4 col-sm-6 col tienda__columna d-flex justify-content-center">
+              <div class="card tienda__tarjeta align-items-center">
+                <img src="../assets/images/amdRyzen75800X.jpg" class="card-img-top tarjeta__img" alt="Ryzen7" />
+                <div class="card-body d-flex flex-column align-items-center tarjeta__body">
+                  <h5 class="card-title text-center tarjeta__titulo">AMD Ryzen7 5800X</h5>
+                  <p class="card-text tarjeta__txt"></p>
+                  <button type="button" class="btn btn-primary tarjeta__btn" data-bs-toggle="modal" data-bs-target="#staticBackdropTwo"><p class="text-center fs-2 m-0 p-0">Mas detalles</p></button>
+                  <div class="modal fade tarjeta__modal" id="staticBackdropTwo" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                      <div class="modal-content tarjeta__modalContenedor">
+                        <div class="modal-header tarjeta__modalHeader">
+                          <h5 class="modal-title display-6 text-center tarjeta__modalTitulo" id="staticBackdropLabel">AMD Ryzen7 5800X</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body tarjeta__modalBody">
+                          <div class="row tarjeta__modalFila">
+                            <div class="col-md-6 tarjeta__modalColumna">
+                              <img src="../assets/images/amdRyzen75800X.jpg" alt="Ryzen7" class="img-fluid tarjeta__modalImg" />
+                            </div>
+                            <div class="col-md-6 d-flex flex-column justify-content-center tarjeta__modalColumna">
+                              <span><p class="text-center tarjeta__modalPrecioTitulo">Precio:</p></span>
+                              <p class="tarjeta__modalPrecio text-center"><strong>$XXX.XXX</strong></p>
+                            </div>
+                            <div class="col-12 py-3">
+                              <div class="tarjeta__modalTituloDescripcion p-0 m-0">
+                                <h5 class="tarjeta__modalTitulo--mod fs-1 text-center">Descripcion</h5>
+                                <p><strong>Especificaciones:</strong></p>
+                                <div class="tarjeta__modalDescripcion">
+                                  <p><strong>NOTA: El CPU no posee graficos integrados</strong></p>
+                                  <p><strong># de núcleos de CPU:</strong> 8</p>
+                                  <p><strong># de núcleos de CPU:</strong> 16</p>
+                                  <p><strong>Reloj base:</strong> 3.8GHz</p>
+                                  <p><strong>Reloj de aumento máx.:</strong> Hasta 4.7GHz</p>
+                                  <p><strong>Caché L2:</strong> 4MB</p>
+                                  <p><strong>Caché L3:</strong> 32MB</p>
+                                  <p><strong>CPU Socket:</strong> AM4</p>
+                                  <p><strong>TDP:</strong> 105W</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer tarjeta__modalFooter">
+                          <button type="button" class="btn btn-secondary tarjeta__modalBtnCerrar" data-bs-dismiss="modal"><p class="fs-3 m-0 p-0">Cerrar</p></button>
+                          <button type="button" class="btn btn-primary tarjeta__modalBtnComprar"><p class="fs-3 m-0 p-0">Comprar</p></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xxl-4 col-sm-6 col tienda__columna d-flex justify-content-center">
+              <div class="card tienda__tarjeta align-items-center">
+                <img src="../assets/images/amdRyzen95900X.jpg" class="card-img-top tarjeta__img" alt="Ryzen9" />
+                <div class="card-body d-flex flex-column align-items-center tarjeta__body">
+                  <h5 class="card-title text-center tarjeta__titulo">AMD Ryzen9 5900X</h5>
+                  <p class="card-text tarjeta__txt"></p>
+                  <button type="button" class="btn btn-primary tarjeta__btn" data-bs-toggle="modal" data-bs-target="#staticBackdropTree"><p class="text-center fs-2 m-0 p-0">Mas detalles</p></button>
+                  <div class="modal fade tarjeta__modal" id="staticBackdropTree" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                      <div class="modal-content tarjeta__modalContenedor">
+                        <div class="modal-header tarjeta__modalHeader">
+                          <h5 class="modal-title display-6 text-center tarjeta__modalTitulo" id="staticBackdropLabel">AMD Ryzen9 5900X</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body tarjeta__modalBody">
+                          <div class="row tarjeta__modalFila">
+                            <div class="col-md-6 tarjeta__modalColumna">
+                              <img src="../assets/images/amdRyzen95900X.jpg" alt="Ryzen9" class="img-fluid tarjeta__modalImg" />
+                            </div>
+                            <div class="col-md-6 d-flex flex-column justify-content-center tarjeta__modalColumna">
+                              <span><p class="text-center tarjeta__modalPrecioTitulo">Precio:</p></span>
+                              <p class="tarjeta__modalPrecio text-center"><strong>$XXX.XXX</strong></p>
+                            </div>
+                            <div class="col-12 py-3">
+                              <div class="tarjeta__modalTituloDescripcion p-0 m-0">
+                                <h5 class="tarjeta__modalTitulo--mod fs-1 text-center">Descripcion</h5>
+                                <p><strong>Especificaciones:</strong></p>
+                                <div class="tarjeta__modalDescripcion">
+                                  <p><strong>NOTA: El CPU no posee graficos integrados</strong></p>
+                                  <p><strong># de núcleos de CPU:</strong> 12</p>
+                                  <p><strong># de núcleos de CPU:</strong> 24</p>
+                                  <p><strong>Reloj base:</strong> 3.7GHz</p>
+                                  <p><strong>Reloj de aumento máx.:</strong> Hasta 4.8GHz</p>
+                                  <p><strong>Caché L2:</strong> 6MB</p>
+                                  <p><strong>Caché L3:</strong> 64MB</p>
+                                  <p><strong>CPU Socket:</strong> AM4</p>
+                                  <p><strong>TDP:</strong> 105W</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer tarjeta__modalFooter">
+                          <button type="button" class="btn btn-secondary tarjeta__modalBtnCerrar" data-bs-dismiss="modal"><p class="fs-3 m-0 p-0">Cerrar</p></button>
+                          <button type="button" class="btn btn-primary tarjeta__modalBtnComprar"><p class="fs-3 m-0 p-0">Comprar</p></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xxl-4 col-sm-6 col tienda__columna d-flex justify-content-center">
+              <div class="card tienda__tarjeta align-items-center">
+                <img src="../assets/images/corsairVengeance16GbDdr4.jpg" class="card-img-top tarjeta__img" alt="Vengeance" />
+                <div class="card-body d-flex flex-column align-items-center tarjeta__body">
+                  <h5 class="card-title text-center tarjeta__titulo">Vengeance 16gb ddr4</h5>
+                  <p class="card-text tarjeta__txt"></p>
+                  <button type="button" class="btn btn-primary tarjeta__btn" data-bs-toggle="modal" data-bs-target="#staticBackdropFour"><p class="text-center fs-2 m-0 p-0">Mas detalles</p></button>
+                  <div class="modal fade tarjeta__modal" id="staticBackdropFour" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                      <div class="modal-content tarjeta__modalContenedor">
+                        <div class="modal-header tarjeta__modalHeader">
+                          <h5 class="modal-title display-6 text-center tarjeta__modalTitulo" id="staticBackdropLabel">Corsair Vengeance 16gb ddr4 (2X8gb)</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body tarjeta__modalBody">
+                          <div class="row tarjeta__modalFila">
+                            <div class="col-md-6 tarjeta__modalColumna">
+                              <img src="../assets/images/corsairVengeance16GbDdr4.jpg" alt="Vengeance" class="img-fluid tarjeta__modalImg" />
+                            </div>
+                            <div class="col-md-6 d-flex flex-column justify-content-center tarjeta__modalColumna">
+                              <span><p class="text-center tarjeta__modalPrecioTitulo">Precio:</p></span>
+                              <p class="tarjeta__modalPrecio text-center"><strong>$XXX.XXX</strong></p>
+                            </div>
+                            <div class="col-12 py-3">
+                              <div class="tarjeta__modalTituloDescripcion p-0 m-0">
+                                <h5 class="tarjeta__modalTitulo--mod fs-1 text-center">Descripcion</h5>
+                                <p><strong>Especificaciones:</strong></p>
+                                <div class="tarjeta__modalDescripcion">
+                                  <p><strong>NOTA: Son dos modulos de 8gb cada uno</strong></p>
+                                  <p><strong>Marca:</strong> Corsair</p>
+                                  <p><strong>Tecnologia:</strong> DDR4</p>
+                                  <p><strong>Formato:</strong> UDIMM</p>
+                                  <p><strong>Velocidad:</strong> 2400 MHz</p>
+                                  <p><strong>Modulos de memorio:</strong> 2</p>
+                                  <p><strong>Capacidad de memoria:</strong> 16gb</p>
+                                  <p><strong>Capacidad individual:</strong> 8gb</p>
+                                  <p><strong>Latencia CAS:</strong> 14</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer tarjeta__modalFooter">
+                          <button type="button" class="btn btn-secondary tarjeta__modalBtnCerrar" data-bs-dismiss="modal"><p class="fs-3 m-0 p-0">Cerrar</p></button>
+                          <button type="button" class="btn btn-primary tarjeta__modalBtnComprar"><p class="fs-3 m-0 p-0">Comprar</p></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xxl-4 col-sm-6 col tienda__columna d-flex justify-content-center">
+              <div class="card tienda__tarjeta align-items-center">
+                <img src="../assets/images/corsairVengeanceRgbPro16GbDdr4.jpg" class="card-img-top tarjeta__img" alt="VengeanceRgbPro" />
+                <div class="card-body d-flex flex-column align-items-center tarjeta__body">
+                  <h5 class="card-title text-center tarjeta__titulo">Vengeance Pro 16gb ddr4</h5>
+                  <p class="card-text tarjeta__txt"></p>
+                  <button type="button" class="btn btn-primary tarjeta__btn" data-bs-toggle="modal" data-bs-target="#staticBackdropFive"><p class="text-center fs-2 m-0 p-0">Mas detalles</p></button>
+                  <div class="modal fade tarjeta__modal" id="staticBackdropFive" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                      <div class="modal-content tarjeta__modalContenedor">
+                        <div class="modal-header tarjeta__modalHeader">
+                          <h5 class="modal-title display-6 text-center tarjeta__modalTitulo" id="staticBackdropLabel">Corsair Vengeance Pro RGB 16gb ddr4</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body tarjeta__modalBody">
+                          <div class="row tarjeta__modalFila">
+                            <div class="col-md-6 tarjeta__modalColumna">
+                              <img src="../assets/images/corsairVengeanceRgbPro16GbDdr4.jpg" alt="VengeanceRgbPro" class="img-fluid tarjeta__modalImg" />
+                            </div>
+                            <div class="col-md-6 d-flex flex-column justify-content-center tarjeta__modalColumna">
+                              <span><p class="text-center tarjeta__modalPrecioTitulo">Precio:</p></span>
+                              <p class="tarjeta__modalPrecio text-center"><strong>$XXX.XXX</strong></p>
+                            </div>
+                            <div class="col-12 py-3">
+                              <div class="tarjeta__modalTituloDescripcion p-0 m-0">
+                                <h5 class="tarjeta__modalTitulo--mod fs-1 text-center">Descripcion</h5>
+                                <p><strong>Especificaciones:</strong></p>
+                                <div class="tarjeta__modalDescripcion">
+                                  <p><strong>NOTA: Son dos modulos de 8gb cada uno</strong></p>
+                                  <p><strong>Marca:</strong> Corsair</p>
+                                  <p><strong>Tecnologia:</strong> DDR4</p>
+                                  <p><strong>Formato:</strong> UDIMM</p>
+                                  <p><strong>Velocidad:</strong> 3200 MHz</p>
+                                  <p><strong>Modulos de memorio:</strong> 2</p>
+                                  <p><strong>Capacidad de memoria:</strong> 16gb</p>
+                                  <p><strong>Capacidad individual:</strong> 8gb</p>
+                                  <p><strong>Latencia CAS:</strong> 16</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer tarjeta__modalFooter">
+                          <button type="button" class="btn btn-secondary tarjeta__modalBtnCerrar" data-bs-dismiss="modal"><p class="fs-3 m-0 p-0">Cerrar</p></button>
+                          <button type="button" class="btn btn-primary tarjeta__modalBtnComprar"><p class="fs-3 m-0 p-0">Comprar</p></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xxl-4 col-sm-6 col tienda__columna d-flex justify-content-center">
+              <div class="card tienda__tarjeta align-items-center">
+                <img src="../assets/images/corsairVengeanceRgbPro16GbDdr4White.jpg" class="card-img-top tarjeta__img" alt="VengeanceRgbProW" />
+                <div class="card-body d-flex flex-column align-items-center tarjeta__body">
+                  <h5 class="card-title text-center tarjeta__titulo">Vengance Pro 16gb ddr4 W</h5>
+                  <p class="card-text tarjeta__txt"></p>
+                  <button type="button" class="btn btn-primary tarjeta__btn" data-bs-toggle="modal" data-bs-target="#staticBackdropSix"><p class="text-center fs-2 m-0 p-0">Mas detalles</p></button>
+                  <div class="modal fade tarjeta__modal" id="staticBackdropSix" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                      <div class="modal-content tarjeta__modalContenedor">
+                        <div class="modal-header tarjeta__modalHeader">
+                          <h5 class="modal-title display-6 text-center tarjeta__modalTitulo" id="staticBackdropLabel">Corsair Vengeance Pro RGB 16gb ddr4 White</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body tarjeta__modalBody">
+                          <div class="row tarjeta__modalFila">
+                            <div class="col-md-6 tarjeta__modalColumna">
+                              <img src="../assets/images/corsairVengeanceRgbPro16GbDdr4White.jpg" alt="VengeanceRgbProW" class="img-fluid tarjeta__modalImg" />
+                            </div>
+                            <div class="col-md-6 d-flex flex-column justify-content-center tarjeta__modalColumna">
+                              <span><p class="text-center tarjeta__modalPrecioTitulo">Precio:</p></span>
+                              <p class="tarjeta__modalPrecio text-center"><strong>$XXX.XXX</strong></p>
+                            </div>
+                            <div class="col-12 py-3">
+                              <div class="tarjeta__modalTituloDescripcion p-0 m-0">
+                                <h5 class="tarjeta__modalTitulo--mod fs-1 text-center">Descripcion</h5>
+                                <p><strong>Especificaciones:</strong></p>
+                                <div class="tarjeta__modalDescripcion">
+                                  <p><strong>NOTA: Son dos modulos de 8gb cada uno</strong></p>
+                                  <p><strong>Marca:</strong> Corsair</p>
+                                  <p><strong>Tecnologia:</strong> DDR4</p>
+                                  <p><strong>Formato:</strong> UDIMM</p>
+                                  <p><strong>Velocidad:</strong> 3200 MHz</p>
+                                  <p><strong>Modulos de memorio:</strong> 2</p>
+                                  <p><strong>Capacidad de memoria:</strong> 16gb</p>
+                                  <p><strong>Capacidad individual:</strong> 8gb</p>
+                                  <p><strong>Latencia CAS:</strong> 16</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer tarjeta__modalFooter">
+                          <button type="button" class="btn btn-secondary tarjeta__modalBtnCerrar" data-bs-dismiss="modal"><p class="fs-3 m-0 p-0">Cerrar</p></button>
+                          <button type="button" class="btn btn-primary tarjeta__modalBtnComprar"><p class="fs-3 m-0 p-0">Comprar</p></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xxl-4 col-sm-6 col tienda__columna d-flex justify-content-center">
+              <div class="card tienda__tarjeta align-items-center">
+                <img src="../assets/images/evgaRtx3090.jpg" class="card-img-top tarjeta__img" alt="3090" />
+                <div class="card-body d-flex flex-column align-items-center tarjeta__body">
+                  <h5 class="card-title text-center tarjeta__titulo">EVGA RTX 3090</h5>
+                  <p class="card-text tarjeta__txt"></p>
+                  <button type="button" class="btn btn-primary tarjeta__btn" data-bs-toggle="modal" data-bs-target="#staticBackdropSeven"><p class="text-center fs-2 m-0 p-0">Mas detalles</p></button>
+                  <div class="modal fade tarjeta__modal" id="staticBackdropSeven" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                      <div class="modal-content tarjeta__modalContenedor">
+                        <div class="modal-header tarjeta__modalHeader">
+                          <h5 class="modal-title display-6 text-center tarjeta__modalTitulo" id="staticBackdropLabel">EVGA RTX 3090</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body tarjeta__modalBody">
+                          <div class="row tarjeta__modalFila">
+                            <div class="col-md-6 tarjeta__modalColumna">
+                              <img src="../assets/images/evgaRtx3090.jpg" alt="3090" class="img-fluid tarjeta__modalImg" />
+                            </div>
+                            <div class="col-md-6 d-flex flex-column justify-content-center tarjeta__modalColumna">
+                              <span><p class="text-center tarjeta__modalPrecioTitulo">Precio:</p></span>
+                              <p class="tarjeta__modalPrecio text-center"><strong>$XXX.XXX</strong></p>
+                            </div>
+                            <div class="col-12 py-3">
+                              <div class="tarjeta__modalTituloDescripcion p-0 m-0">
+                                <h5 class="tarjeta__modalTitulo--mod fs-1 text-center">Descripcion</h5>
+                                <p><strong>Especificaciones:</strong></p>
+                                <div class="tarjeta__modalDescripcion">
+                                  <p><strong>Fabricante:</strong> Nvidia</p>
+                                  <p><strong>Marca:</strong> EVGA</p>
+                                  <p><strong>Linea:</strong> FTW Gaming</p>
+                                  <p><strong>Version:</strong> 24G-P5-3987-KR</p>
+                                  <p><strong>Tamaño de Memoria:</strong> 24GB</p>
+                                  <p><strong>Interfaz con la placa madre:</strong> PCI-Express 4.0</p>
+                                  <p><strong>Bus de memoria:</strong> 384bit</p>
+                                  <p><strong>Requerimiento energético:</strong> 750W</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer tarjeta__modalFooter">
+                          <button type="button" class="btn btn-secondary tarjeta__modalBtnCerrar" data-bs-dismiss="modal"><p class="fs-3 m-0 p-0">Cerrar</p></button>
+                          <button type="button" class="btn btn-primary tarjeta__modalBtnComprar"><p class="fs-3 m-0 p-0">Comprar</p></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xxl-4 col-sm-6 col tienda__columna d-flex justify-content-center">
+              <div class="card tienda__tarjeta align-items-center">
+                <img src="../assets/images/tufGamingX570Amd.jpg" class="card-img-top tarjeta__img" alt="X570Amd" />
+                <div class="card-body d-flex flex-column align-items-center tarjeta__body">
+                  <h5 class="card-title text-center tarjeta__titulo">TUF Gaming X570 AM4</h5>
+                  <p class="card-text tarjeta__txt"></p>
+                  <button type="button" class="btn btn-primary tarjeta__btn" data-bs-toggle="modal" data-bs-target="#staticBackdropEight"><p class="text-center fs-2 m-0 p-0">Mas detalles</p></button>
+                  <div class="modal fade tarjeta__modal" id="staticBackdropEight" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                      <div class="modal-content tarjeta__modalContenedor">
+                        <div class="modal-header tarjeta__modalHeader">
+                          <h5 class="modal-title display-6 text-center tarjeta__modalTitulo" id="staticBackdropLabel">TUF Gaming X570 AM4</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body tarjeta__modalBody">
+                          <div class="row tarjeta__modalFila">
+                            <div class="col-md-6 tarjeta__modalColumna">
+                              <img src="../assets/images/tufGamingX570Amd.jpg" alt="X570Amd" class="img-fluid tarjeta__modalImg" />
+                            </div>
+                            <div class="col-md-6 d-flex flex-column justify-content-center tarjeta__modalColumna">
+                              <span><p class="text-center tarjeta__modalPrecioTitulo">Precio:</p></span>
+                              <p class="tarjeta__modalPrecio text-center"><strong>$XXX.XXX</strong></p>
+                            </div>
+                            <div class="col-12 py-3">
+                              <div class="tarjeta__modalTituloDescripcion p-0 m-0">
+                                <h5 class="tarjeta__modalTitulo--mod fs-1 text-center">Descripcion</h5>
+                                <p><strong>Especificaciones:</strong></p>
+                                <div class="tarjeta__modalDescripcion">
+                                  <p><strong>Marca:</strong> Asus</p>
+                                  <p><strong>Linea:</strong> X570</p>
+                                  <p><strong>Modelo:</strong> TUF GAMING X570 PLUS WI-FI</p>
+                                  <p><strong>Plataforma:</strong> AMD</p>
+                                  <p><strong>Chipset:</strong> X570</p>
+                                  <p><strong>Socket:</strong> AM4</p>
+                                  <p><strong>Tipo de memoria RAM:</strong> DDR4</p>
+                                  <p><strong>Capacidad máxima soportada de la memoria RAM:</strong> 512GB</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer tarjeta__modalFooter">
+                          <button type="button" class="btn btn-secondary tarjeta__modalBtnCerrar" data-bs-dismiss="modal"><p class="fs-3 m-0 p-0">Cerrar</p></button>
+                          <button type="button" class="btn btn-primary tarjeta__modalBtnComprar"><p class="fs-3 m-0 p-0">Comprar</p></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xxl-4 col-sm-6 col tienda__columna d-flex justify-content-center">
+              <div class="card tienda__tarjeta align-items-center">
+                <img src="../assets/images/tufGamingZ590Intel.jpg" class="card-img-top tarjeta__img" alt="Z590Intel" />
+                <div class="card-body d-flex flex-column align-items-center tarjeta__body">
+                  <h5 class="card-title text-center tarjeta__titulo">TUF Gaming Z590 LGA1200</h5>
+                  <p class="card-text tarjeta__txt"></p>
+                  <button type="button" class="btn btn-primary tarjeta__btn" data-bs-toggle="modal" data-bs-target="#staticBackdropNine"><p class="text-center fs-2 m-0 p-0">Mas detalles</p></button>
+                  <div class="modal fade tarjeta__modal" id="staticBackdropNine" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                      <div class="modal-content tarjeta__modalContenedor">
+                        <div class="modal-header tarjeta__modalHeader">
+                          <h5 class="modal-title display-6 text-center tarjeta__modalTitulo" id="staticBackdropLabel">TUF Gaming Z590 LGA1200</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body tarjeta__modalBody">
+                          <div class="row tarjeta__modalFila">
+                            <div class="col-md-6 tarjeta__modalColumna">
+                              <img src="../assets/images/tufGamingZ590Intel.jpg" alt="Z590Intel" class="img-fluid tarjeta__modalImg" />
+                            </div>
+                            <div class="col-md-6 d-flex flex-column justify-content-center tarjeta__modalColumna">
+                              <span><p class="text-center tarjeta__modalPrecioTitulo">Precio:</p></span>
+                              <p class="tarjeta__modalPrecio text-center"><strong>$XXX.XXX</strong></p>
+                            </div>
+                            <div class="col-12 py-3">
+                              <div class="tarjeta__modalTituloDescripcion p-0 m-0">
+                                <h5 class="tarjeta__modalTitulo--mod fs-1 text-center">Descripcion</h5>
+                                <p><strong>Especificaciones:</strong></p>
+                                <div class="tarjeta__modalDescripcion">
+                                  <p><strong>Marca:</strong> Asus</p>
+                                  <p><strong>Linea:</strong> Z590</p>
+                                  <p><strong>Modelo:</strong> TUF GAMING Z590 PLUS WI-FI</p>
+                                  <p><strong>Plataforma:</strong> Intel</p>
+                                  <p><strong>Chipset:</strong> Z590</p>
+                                  <p><strong>Socket:</strong> LGA1200</p>
+                                  <p><strong>Tipo de memoria RAM:</strong> DDR4</p>
+                                  <p><strong>Capacidad máxima soportada de la memoria RAM:</strong> 128GB</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer tarjeta__modalFooter">
+                          <button type="button" class="btn btn-secondary tarjeta__modalBtnCerrar" data-bs-dismiss="modal"><p class="fs-3 m-0 p-0">Cerrar</p></button>
+                          <button type="button" class="btn btn-primary tarjeta__modalBtnComprar"><p class="fs-3 m-0 p-0">Comprar</p></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <h2 class="text-center display-3 fw-bold tienda__tituloProductos">Productos</h2>
+            <div class="col-xxl-4 col-sm-6 col tienda__columna d-flex justify-content-center">
+              <div class="card tienda__tarjeta align-items-center">
+                <img src="../assets/images/intelI3.jpg" class="card-img-top tarjeta__img" alt="I3" />
+                <div class="card-body d-flex flex-column align-items-center tarjeta__body">
+                  <h5 class="card-title text-center tarjeta__titulo">Intel I3 10gen</h5>
+                  <p class="card-text tarjeta__txt"></p>
+                  <button type="button" class="btn btn-primary tarjeta__btn" data-bs-toggle="modal" data-bs-target="#staticBackdropTen"><p class="text-center fs-2 m-0 p-0">Mas detalles</p></button>
+                  <div class="modal fade tarjeta__modal" id="staticBackdropTen" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                      <div class="modal-content tarjeta__modalContenedor">
+                        <div class="modal-header tarjeta__modalHeader">
+                          <h5 class="modal-title display-6 text-center tarjeta__modalTitulo" id="staticBackdropLabel">Intel I3 10100</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body tarjeta__modalBody">
+                          <div class="row tarjeta__modalFila">
+                            <div class="col-md-6 tarjeta__modalColumna">
+                              <img src="../assets/images/intelI3.jpg" alt="I3" class="img-fluid tarjeta__modalImg" />
+                            </div>
+                            <div class="col-md-6 d-flex flex-column justify-content-center tarjeta__modalColumna">
+                              <span><p class="text-center tarjeta__modalPrecioTitulo">Precio:</p></span>
+                              <p class="tarjeta__modalPrecio text-center"><strong>$XXX.XXX</strong></p>
+                            </div>
+                            <div class="col-12 py-3">
+                              <div class="tarjeta__modalTituloDescripcion p-0 m-0">
+                                <h5 class="tarjeta__modalTitulo--mod fs-1 text-center">Descripcion</h5>
+                                <p><strong>Especificaciones:</strong></p>
+                                <div class="tarjeta__modalDescripcion">
+                                  <p><strong># de núcleos de CPU</strong> 4</p>
+                                  <p><strong># de núcleos de CPU</strong> 8</p>
+                                  <p><strong>Reloj base:</strong> 3.6GHz</p>
+                                  <p><strong>Reloj de aumento máx.:</strong> Hasta 4.3GHz</p>
+                                  <p><strong>Caché:</strong> 6MB Intel® Smart Cache</p>
+                                  <p><strong>CPU Socket:</strong> LGA1200</p>
+                                  <p><strong>TDP:</strong> 65W</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer tarjeta__modalFooter">
+                          <button type="button" class="btn btn-secondary tarjeta__modalBtnCerrar" data-bs-dismiss="modal"><p class="fs-3 m-0 p-0">Cerrar</p></button>
+                          <button type="button" class="btn btn-primary tarjeta__modalBtnComprar"><p class="fs-3 m-0 p-0">Comprar</p></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xxl-4 col-sm-6 col tienda__columna d-flex justify-content-center">
+              <div class="card tienda__tarjeta align-items-center">
+                <img src="../assets/images/intelI5.jpg" class="card-img-top tarjeta__img" alt="I5" />
+                <div class="card-body d-flex flex-column align-items-center tarjeta__body">
+                  <h5 class="card-title text-center tarjeta__titulo">Intel I5 10gen</h5>
+                  <p class="card-text tarjeta__txt"></p>
+                  <button type="button" class="btn btn-primary tarjeta__btn" data-bs-toggle="modal" data-bs-target="#staticBackdropEleven"><p class="text-center fs-2 m-0 p-0">Mas detalles</p></button>
+                  <div class="modal fade tarjeta__modal" id="staticBackdropEleven" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                      <div class="modal-content tarjeta__modalContenedor">
+                        <div class="modal-header tarjeta__modalHeader">
+                          <h5 class="modal-title display-6 text-center tarjeta__modalTitulo" id="staticBackdropLabel">Intel I5 10400</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body tarjeta__modalBody">
+                          <div class="row tarjeta__modalFila">
+                            <div class="col-md-6 tarjeta__modalColumna">
+                              <img src="../assets/images/intelI5.jpg" alt="I5" class="img-fluid tarjeta__modalImg" />
+                            </div>
+                            <div class="col-md-6 d-flex flex-column justify-content-center tarjeta__modalColumna">
+                              <span><p class="text-center tarjeta__modalPrecioTitulo">Precio:</p></span>
+                              <p class="tarjeta__modalPrecio text-center"><strong>$XXX.XXX</strong></p>
+                            </div>
+                            <div class="col-12 py-3">
+                              <div class="tarjeta__modalTituloDescripcion p-0 m-0">
+                                <h5 class="tarjeta__modalTitulo--mod fs-1 text-center">Descripcion</h5>
+                                <p><strong>Especificaciones:</strong></p>
+                                <div class="tarjeta__modalDescripcion">
+                                  <p><strong># de núcleos de CPU</strong> 6</p>
+                                  <p><strong># de núcleos de CPU</strong> 12</p>
+                                  <p><strong>Reloj base:</strong> 2.9GHz</p>
+                                  <p><strong>Reloj de aumento máx.:</strong> Hasta 4.3GHz</p>
+                                  <p><strong>Caché:</strong> 12MB Intel® Smart Cache</p>
+                                  <p><strong>CPU Socket:</strong> LGA1200</p>
+                                  <p><strong>TDP:</strong> 65W</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer tarjeta__modalFooter">
+                          <button type="button" class="btn btn-secondary tarjeta__modalBtnCerrar" data-bs-dismiss="modal"><p class="fs-3 m-0 p-0">Cerrar</p></button>
+                          <button type="button" class="btn btn-primary tarjeta__modalBtnComprar"><p class="fs-3 m-0 p-0">Comprar</p></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xxl-4 col-sm-6 col tienda__columna d-flex justify-content-center">
+              <div class="card tienda__tarjeta align-items-center">
+                <img src="../assets/images/intelI7.jpg" class="card-img-top tarjeta__img" alt="I7" />
+                <div class="card-body d-flex flex-column align-items-center tarjeta__body">
+                  <h5 class="card-title text-center tarjeta__titulo">Intel I7 10gen</h5>
+                  <p class="card-text tarjeta__txt"></p>
+                  <button type="button" class="btn btn-primary tarjeta__btn" data-bs-toggle="modal" data-bs-target="#staticBackdropTwelve"><p class="text-center fs-2 m-0 p-0">Mas detalles</p></button>
+                  <div class="modal fade tarjeta__modal" id="staticBackdropTwelve" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                      <div class="modal-content tarjeta__modalContenedor">
+                        <div class="modal-header tarjeta__modalHeader">
+                          <h5 class="modal-title display-6 text-center tarjeta__modalTitulo" id="staticBackdropLabel">Intel I7 10700</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body tarjeta__modalBody">
+                          <div class="row tarjeta__modalFila">
+                            <div class="col-md-6 tarjeta__modalColumna">
+                              <img src="../assets/images/intelI7.jpg" alt="I7" class="img-fluid tarjeta__modalImg" />
+                            </div>
+                            <div class="col-md-6 d-flex flex-column justify-content-center tarjeta__modalColumna">
+                              <span><p class="text-center tarjeta__modalPrecioTitulo">Precio:</p></span>
+                              <p class="tarjeta__modalPrecio text-center"><strong>$XXX.XXX</strong></p>
+                            </div>
+                            <div class="col-12 py-3">
+                              <div class="tarjeta__modalTituloDescripcion p-0 m-0">
+                                <h5 class="tarjeta__modalTitulo--mod fs-1 text-center">Descripcion</h5>
+                                <p><strong>Especificaciones:</strong></p>
+                                <div class="tarjeta__modalDescripcion">
+                                  <p><strong># de núcleos de CPU</strong> 8</p>
+                                  <p><strong># de núcleos de CPU</strong> 16</p>
+                                  <p><strong>Reloj base:</strong> 2.9GHz</p>
+                                  <p><strong>Reloj de aumento máx.:</strong> Hasta 4.8GHz</p>
+                                  <p><strong>Caché:</strong> 16MB Intel® Smart Cache</p>
+                                  <p><strong>CPU Socket:</strong> LGA1200</p>
+                                  <p><strong>TDP:</strong> 65W</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer tarjeta__modalFooter">
+                          <button type="button" class="btn btn-secondary tarjeta__modalBtnCerrar" data-bs-dismiss="modal"><p class="fs-3 m-0 p-0">Cerrar</p></button>
+                          <button type="button" class="btn btn-primary tarjeta__modalBtnComprar"><p class="fs-3 m-0 p-0">Comprar</p></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xxl-4 col-sm-6 col tienda__columna d-flex justify-content-center">
+              <div class="card tienda__tarjeta align-items-center">
+                <img src="../assets/images/evgaRtx3060Ti.jpg" class="card-img-top tarjeta__img" alt="3060Ti" />
+                <div class="card-body d-flex flex-column align-items-center tarjeta__body">
+                  <h5 class="card-title text-center tarjeta__titulo">EVGA RTX 3060TI</h5>
+                  <p class="card-text tarjeta__txt"></p>
+                  <button type="button" class="btn btn-primary tarjeta__btn" data-bs-toggle="modal" data-bs-target="#staticBackdropThirteen"><p class="text-center fs-2 m-0 p-0">Mas detalles</p></button>
+                  <div class="modal fade tarjeta__modal" id="staticBackdropThirteen" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                      <div class="modal-content tarjeta__modalContenedor">
+                        <div class="modal-header tarjeta__modalHeader">
+                          <h5 class="modal-title display-6 text-center tarjeta__modalTitulo" id="staticBackdropLabel">EVGA RTX 3060TI</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body tarjeta__modalBody">
+                          <div class="row tarjeta__modalFila">
+                            <div class="col-md-6 tarjeta__modalColumna">
+                              <img src="../assets/images/evgaRtx3060Ti.jpg" alt="3060Ti" class="img-fluid tarjeta__modalImg" />
+                            </div>
+                            <div class="col-md-6 d-flex flex-column justify-content-center tarjeta__modalColumna">
+                              <span><p class="text-center tarjeta__modalPrecioTitulo">Precio:</p></span>
+                              <p class="tarjeta__modalPrecio text-center"><strong>$XXX.XXX</strong></p>
+                            </div>
+                            <div class="col-12 py-3">
+                              <div class="tarjeta__modalTituloDescripcion p-0 m-0">
+                                <h5 class="tarjeta__modalTitulo--mod fs-1 text-center">Descripcion</h5>
+                                <p><strong>Especificaciones:</strong></p>
+                                <div class="tarjeta__modalDescripcion">
+                                  <p><strong>Fabricante:</strong> Nvidia</p>
+                                  <p><strong>Marca:</strong> EVGA</p>
+                                  <p><strong>Linea:</strong> XC Gaming</p>
+                                  <p><strong>Version:</strong> 08G-P5-3663-KL</p>
+                                  <p><strong>Tamaño de Memoria:</strong> 8GB</p>
+                                  <p><strong>Interfaz con la placa madre:</strong> PCI-Express 4.0</p>
+                                  <p><strong>Bus de memoria:</strong> 256bit</p>
+                                  <p><strong>Requerimiento energético:</strong> 600W</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer tarjeta__modalFooter">
+                          <button type="button" class="btn btn-secondary tarjeta__modalBtnCerrar" data-bs-dismiss="modal"><p class="fs-3 m-0 p-0">Cerrar</p></button>
+                          <button type="button" class="btn btn-primary tarjeta__modalBtnComprar"><p class="fs-3 m-0 p-0">Comprar</p></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xxl-4 col-sm-6 col tienda__columna d-flex justify-content-center">
+              <div class="card tienda__tarjeta align-items-center">
+                <img src="../assets/images/evgaRtx3070.jpg" class="card-img-top tarjeta__img" alt="3070" />
+                <div class="card-body d-flex flex-column align-items-center tarjeta__body">
+                  <h5 class="card-title text-center tarjeta__titulo">EVGA RTX 3070</h5>
+                  <p class="card-text tarjeta__txt"></p>
+                  <button type="button" class="btn btn-primary tarjeta__btn" data-bs-toggle="modal" data-bs-target="#staticBackdropFourteen"><p class="text-center fs-2 m-0 p-0">Mas detalles</p></button>
+                  <div class="modal fade tarjeta__modal" id="staticBackdropFourteen" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                      <div class="modal-content tarjeta__modalContenedor">
+                        <div class="modal-header tarjeta__modalHeader">
+                          <h5 class="modal-title display-6 text-center tarjeta__modalTitulo" id="staticBackdropLabel">EVGA RTX 3070</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body tarjeta__modalBody">
+                          <div class="row tarjeta__modalFila">
+                            <div class="col-md-6 tarjeta__modalColumna">
+                              <img src="../assets/images/evgaRtx3070.jpg" alt="3070" class="img-fluid tarjeta__modalImg" />
+                            </div>
+                            <div class="col-md-6 d-flex flex-column justify-content-center tarjeta__modalColumna">
+                              <span><p class="text-center tarjeta__modalPrecioTitulo">Precio:</p></span>
+                              <p class="tarjeta__modalPrecio text-center"><strong>$XXX.XXX</strong></p>
+                            </div>
+                            <div class="col-12 py-3">
+                              <div class="tarjeta__modalTituloDescripcion p-0 m-0">
+                                <h5 class="tarjeta__modalTitulo--mod fs-1 text-center">Descripcion</h5>
+                                <p><strong>Especificaciones:</strong></p>
+                                <div class="tarjeta__modalDescripcion">
+                                  <p><strong>Fabricante:</strong> Nvidia</p>
+                                  <p><strong>Marca:</strong> EVGA</p>
+                                  <p><strong>Linea:</strong> XC3 Gaming</p>
+                                  <p><strong>Version:</strong> 08G-P5-3751-KR</p>
+                                  <p><strong>Tamaño de Memoria:</strong> 8GB</p>
+                                  <p><strong>Interfaz con la placa madre:</strong> PCI-Express 4.0</p>
+                                  <p><strong>Bus de memoria:</strong> 256bit</p>
+                                  <p><strong>Requerimiento energético:</strong> 600W</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer tarjeta__modalFooter">
+                          <button type="button" class="btn btn-secondary tarjeta__modalBtnCerrar" data-bs-dismiss="modal"><p class="fs-3 m-0 p-0">Cerrar</p></button>
+                          <button type="button" class="btn btn-primary tarjeta__modalBtnComprar"><p class="fs-3 m-0 p-0">Comprar</p></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xxl-4 col-sm-6 col tienda__columna d-flex justify-content-center">
+              <div class="card tienda__tarjeta align-items-center">
+                <img src="../assets/images/evgaRtx3080.jpg" class="card-img-top tarjeta__img" alt="3080" />
+                <div class="card-body d-flex flex-column align-items-center tarjeta__body">
+                  <h5 class="card-title text-center tarjeta__titulo">EVGA RTX 3080</h5>
+                  <p class="card-text tarjeta__txt"></p>
+                  <button type="button" class="btn btn-primary tarjeta__btn" data-bs-toggle="modal" data-bs-target="#staticBackdropFifteen"><p class="text-center fs-2 m-0 p-0">Mas detalles</p></button>
+                  <div class="modal fade tarjeta__modal" id="staticBackdropFifteen" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                      <div class="modal-content tarjeta__modalContenedor">
+                        <div class="modal-header tarjeta__modalHeader">
+                          <h5 class="modal-title display-6 text-center tarjeta__modalTitulo" id="staticBackdropLabel">EVGA RTX 3080</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body tarjeta__modalBody">
+                          <div class="row tarjeta__modalFila">
+                            <div class="col-md-6 tarjeta__modalColumna">
+                              <img src="../assets/images/evgaRtx3080.jpg" alt="3080" class="img-fluid tarjeta__modalImg" />
+                            </div>
+                            <div class="col-md-6 d-flex flex-column justify-content-center tarjeta__modalColumna">
+                              <span><p class="text-center tarjeta__modalPrecioTitulo">Precio:</p></span>
+                              <p class="tarjeta__modalPrecio text-center"><strong>$XXX.XXX</strong></p>
+                            </div>
+                            <div class="col-12 py-3">
+                              <div class="tarjeta__modalTituloDescripcion p-0 m-0">
+                                <h5 class="tarjeta__modalTitulo--mod fs-1 text-center">Descripcion</h5>
+                                <p><strong>Especificaciones:</strong></p>
+                                <div class="tarjeta__modalDescripcion">
+                                  <p><strong>Fabricante:</strong> Nvidia</p>
+                                  <p><strong>Marca:</strong> EVGA</p>
+                                  <p><strong>Linea:</strong> XC3 Gaming</p>
+                                  <p><strong>Version:</strong> 12G-P5-3955-KR</p>
+                                  <p><strong>Tamaño de Memoria:</strong> 12GB</p>
+                                  <p><strong>Interfaz con la placa madre:</strong> PCI-Express 4.0</p>
+                                  <p><strong>Bus de memoria:</strong> 384bit</p>
+                                  <p><strong>Requerimiento energético:</strong> 750W</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer tarjeta__modalFooter">
+                          <button type="button" class="btn btn-secondary tarjeta__modalBtnCerrar" data-bs-dismiss="modal"><p class="fs-3 m-0 p-0">Cerrar</p></button>
+                          <button type="button" class="btn btn-primary tarjeta__modalBtnComprar"><p class="fs-3 m-0 p-0">Comprar</p></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xxl-4 col-sm-6 col tienda__columna d-flex justify-content-center">
+              <div class="card tienda__tarjeta align-items-center">
+                <img src="../assets/images/eliteV4500W.jpg" class="card-img-top tarjeta__img" alt="eliteV" />
+                <div class="card-body d-flex flex-column align-items-center tarjeta__body">
+                  <h5 class="card-title text-center tarjeta__titulo">Cooler Master EliteV4 500W</h5>
+                  <p class="card-text tarjeta__txt"></p>
+                  <button type="button" class="btn btn-primary tarjeta__btn" data-bs-toggle="modal" data-bs-target="#staticBackdropSixteen"><p class="text-center fs-2 m-0 p-0">Mas detalles</p></button>
+                  <div class="modal fade tarjeta__modal" id="staticBackdropSixteen" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                      <div class="modal-content tarjeta__modalContenedor">
+                        <div class="modal-header tarjeta__modalHeader">
+                          <h5 class="modal-title display-6 text-center tarjeta__modalTitulo" id="staticBackdropLabel">Cooler Master EliteV4 500W</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body tarjeta__modalBody">
+                          <div class="row tarjeta__modalFila">
+                            <div class="col-md-6 tarjeta__modalColumna">
+                              <img src="../assets/images/eliteV4500W.jpg" alt="eliteV" class="img-fluid tarjeta__modalImg" />
+                            </div>
+                            <div class="col-md-6 d-flex flex-column justify-content-center tarjeta__modalColumna">
+                              <span><p class="text-center tarjeta__modalPrecioTitulo">Precio:</p></span>
+                              <p class="tarjeta__modalPrecio text-center"><strong>$XXX.XXX</strong></p>
+                            </div>
+                            <div class="col-12 py-3">
+                              <div class="tarjeta__modalTituloDescripcion p-0 m-0">
+                                <h5 class="tarjeta__modalTitulo--mod fs-1 text-center">Descripcion</h5>
+                                <p><strong>Especificaciones:</strong></p>
+                                <div class="tarjeta__modalDescripcion">
+                                  <p><strong>Marca:</strong> Cooler Master Technology</p>
+                                  <p><strong>Linea:</strong> Elite</p>
+                                  <p><strong>Modelo:</strong> MPE-5001-ACABN</p>
+                                  <p><strong>Portencia de salida:</strong> 500 W</p>
+                                  <p><strong>Voltaje:</strong> 200V/240V</p>
+                                  <p><strong>Protección de bajo voltaje:</strong> Si</p>
+                                  <p><strong>Certificación de eficiencia:</strong> 80 Plus White EU 230V</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer tarjeta__modalFooter">
+                          <button type="button" class="btn btn-secondary tarjeta__modalBtnCerrar" data-bs-dismiss="modal"><p class="fs-3 m-0 p-0">Cerrar</p></button>
+                          <button type="button" class="btn btn-primary tarjeta__modalBtnComprar"><p class="fs-3 m-0 p-0">Comprar</p></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xxl-4 col-sm-6 col tienda__columna d-flex justify-content-center">
+              <div class="card tienda__tarjeta align-items-center">
+                <img src="../assets/images/sfxV850W.jpg" class="card-img-top tarjeta__img" alt="sfxV" />
+                <div class="card-body d-flex flex-column align-items-center tarjeta__body">
+                  <h5 class="card-title text-center tarjeta__titulo">Cooler Master SFX 850W</h5>
+                  <p class="card-text tarjeta__txt"></p>
+                  <button type="button" class="btn btn-primary tarjeta__btn" data-bs-toggle="modal" data-bs-target="#staticBackdropSeventeen"><p class="text-center fs-2 m-0 p-0">Mas detalles</p></button>
+                  <div class="modal fade tarjeta__modal" id="staticBackdropSeventeen" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                      <div class="modal-content tarjeta__modalContenedor">
+                        <div class="modal-header tarjeta__modalHeader">
+                          <h5 class="modal-title display-6 text-center tarjeta__modalTitulo" id="staticBackdropLabel">Cooler Master SFX 850W</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body tarjeta__modalBody">
+                          <div class="row tarjeta__modalFila">
+                            <div class="col-md-6 tarjeta__modalColumna">
+                              <img src="../assets/images/sfxV850W.jpg" alt="sfxV" class="img-fluid tarjeta__modalImg" />
+                            </div>
+                            <div class="col-md-6 d-flex flex-column justify-content-center tarjeta__modalColumna">
+                              <span><p class="text-center tarjeta__modalPrecioTitulo">Precio:</p></span>
+                              <p class="tarjeta__modalPrecio text-center"><strong>$XXX.XXX</strong></p>
+                            </div>
+                            <div class="col-12 py-3">
+                              <div class="tarjeta__modalTituloDescripcion p-0 m-0">
+                                <h5 class="tarjeta__modalTitulo--mod fs-1 text-center">Descripcion</h5>
+                                <p><strong>Especificaciones:</strong></p>
+                                <div class="tarjeta__modalDescripcion">
+                                  <p><strong>Marca:</strong> Cooler Master Technology</p>
+                                  <p><strong>Linea:</strong> SFX</p>
+                                  <p><strong>Modelo:</strong> MPY-8501-SFHAGV</p>
+                                  <p><strong>Portencia de salida:</strong> 850 W</p>
+                                  <p><strong>Voltaje:</strong> 200V/240V</p>
+                                  <p><strong>Protección de bajo voltaje:</strong> Si</p>
+                                  <p><strong>Certificación de eficiencia:</strong> 80 Plus Gold</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer tarjeta__modalFooter">
+                          <button type="button" class="btn btn-secondary tarjeta__modalBtnCerrar" data-bs-dismiss="modal"><p class="fs-3 m-0 p-0">Cerrar</p></button>
+                          <button type="button" class="btn btn-primary tarjeta__modalBtnComprar"><p class="fs-3 m-0 p-0">Comprar</p></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xxl-4 col-sm-6 col tienda__columna d-flex justify-content-center">
+              <div class="card tienda__tarjeta align-items-center">
+                <img src="../assets/images/m2000Platinum.jpg" class="card-img-top tarjeta__img" alt="mPlatinum" />
+                <div class="card-body d-flex flex-column align-items-center tarjeta__body">
+                  <h5 class="card-title text-center tarjeta__titulo">Cooler Master M2000</h5>
+                  <p class="card-text tarjeta__txt"></p>
+                  <button type="button" class="btn btn-primary tarjeta__btn" data-bs-toggle="modal" data-bs-target="#staticBackdropEighteen"><p class="text-center fs-2 m-0 p-0">Mas detalles</p></button>
+                  <div class="modal fade tarjeta__modal" id="staticBackdropEighteen" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                      <div class="modal-content tarjeta__modalContenedor">
+                        <div class="modal-header tarjeta__modalHeader">
+                          <h5 class="modal-title display-6 text-center tarjeta__modalTitulo" id="staticBackdropLabel">Cooler Master M2000</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body tarjeta__modalBody">
+                          <div class="row tarjeta__modalFila">
+                            <div class="col-md-6 tarjeta__modalColumna">
+                              <img src="../assets/images/m2000Platinum.jpg" alt="mPlatinum" class="img-fluid tarjeta__modalImg" />
+                            </div>
+                            <div class="col-md-6 d-flex flex-column justify-content-center tarjeta__modalColumna">
+                              <span><p class="text-center tarjeta__modalPrecioTitulo">Precio:</p></span>
+                              <p class="tarjeta__modalPrecio text-center"><strong>$XXX.XXX</strong></p>
+                            </div>
+                            <div class="col-12 py-3">
+                              <div class="tarjeta__modalTituloDescripcion p-0 m-0">
+                                <h5 class="tarjeta__modalTitulo--mod fs-1 text-center">Descripcion</h5>
+                                <p><strong>Especificaciones:</strong></p>
+                                <div class="tarjeta__modalDescripcion">
+                                  <p><strong>Marca:</strong> Cooler Master Technology</p>
+                                  <p><strong>Linea:</strong> M Series</p>
+                                  <p><strong>Modelo:</strong> MPZ-K001-AFFBP</p>
+                                  <p><strong>Portencia de salida:</strong> 2000 W</p>
+                                  <p><strong>Voltaje:</strong> 200V/240V</p>
+                                  <p><strong>Protección de bajo voltaje:</strong> Si</p>
+                                  <p><strong>Certificación de eficiencia:</strong> 80 Plus Platinum</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer tarjeta__modalFooter">
+                          <button type="button" class="btn btn-secondary tarjeta__modalBtnCerrar" data-bs-dismiss="modal"><p class="fs-3 m-0 p-0">Cerrar</p></button>
+                          <button type="button" class="btn btn-primary tarjeta__modalBtnComprar"><p class="fs-3 m-0 p-0">Comprar</p></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Link-Contacto-->
+        <div class="pb-5 pt-1">
+          <div class="pb-5">
+            <p class="p-0 m-0 fs-1 text-center">Si estas buscando otro producto en particular, escribinos <a href="./contacto.html" class="p-0 m-0">AQUI</a></p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--Footer-->
+    <footer class="footer py-5 px-2">
+      <div class="container-fluid p-3 footer__contenedor">
+        <div class="row align-items-center footer__fila">
+          <!--Footer-Menu-->
+          <div class="col footer__columna">
+            <nav class="nav flex-column footer__menu">
+              <a class="nav-link px-0 py-1 link-light footer__link" href="../../index.html"><p class="fs-5">INICIO</p></a>
+              <a class="nav-link px-0 py-1 link-light footer__link" href="tienda.html"><p class="fs-5">TIENDA</p></a>
+              <a class="nav-link px-0 py-1 link-light footer__link" href="nosotros.html"><p class="fs-5">NOSOTROS</p></a>
+              <a class="nav-link px-0 py-1 link-light footer__link" href="contacto.html"><p class="fs-5">CONTACTO</p></a>
+              <a class="nav-link px-0 py-1 link-light footer__link" href="ayuda.html"><p class="fs-5">AYUDA</p></a>
+            </nav>
+          </div>
+          <!--Social-Networks -->
+          <div class="col d-flex justify-content-center footer__columna">
+            <nav class="nav footer__redes">
+              <a class="nav-link footer__redesTwitter" href="https://twitter.com/Jav_emperador">
+                <img src="../assets/images/twitter.png" alt="Twitter" />
+              </a>
+              <a class="nav-link footer__redesInstagram" href="https://www.instagram.com/javier_emperador/">
+                <img src="../assets/images/instagram.png" alt="Instagram" />
+              </a>
+              <a class="nav-link footer__redesYoutube" href="https://www.youtube.com/channel/UCp91xaiVYzd1S3SX_bNOWEw">
+                <img src="../assets/images/youtube.png" alt="YouTube" />
+              </a>
+            </nav>
+          </div>
+          <!--Map-Link-->
+          <div class="col d-flex justify-content-end footer__columna">
+            <div class="d-flex flex-column footer__mapaLink">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.7792043428244!2d-65.20428317788749!3d-26.83284177418501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c0febbe97db%3A0x65937e9ca09416ef!2sCasa%20Hist%C3%B3rica%20de%20la%20Independencia!5e0!3m2!1ses!2sar!4v1640233860802!5m2!1ses!2sar" loading="lazy" class="footer__iframe"></iframe>
+              <a href="contacto.html" class="nav-link link-light pt-1 m-0 footer__link"><p class="fs-5 text-center p-0 m-0">Donde estamos</p></a>
+            </div>
+          </div>
+        </div>
+        <!--Legal-->
+        <div class="row align-items-center footer__fila">
+          <nav class="nav d-flex justify-content-center footer__legales">
+            <a class="nav-link link-light p-0 mx-3 footer__link" href="#"><p class="fs-5">Terminos y condiciones</p></a>
+            <a class="nav-link link-light p-0 mx-3 footer__link" href="#"><p class="fs-5">Politica de privacidad</p></a>
+            <a class="nav-link link-light p-0 mx-3 footer__link" href="#"><p class="fs-5">Defensa del consumidor</p></a>
+          </nav>
+        </div>
+      </div>
+    </footer>
+    <!--WhatsApp-Fixed-->
+    <div class="fixed">
+      <a href="https://wa.me/5493816176941?text=Hola%20quiero%20realizar%20una%20compra"><img src="../assets/images/whatsapp.png" alt="Whatsapp" /></a>
+    </div>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>

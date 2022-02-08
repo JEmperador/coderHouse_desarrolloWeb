@@ -1,0 +1,49 @@
+@import "../utilities/utilities";
+
+.contacto {
+  & .contacto__contenedor .contacto__fila {
+    & .contacto__mapaDireccion {
+      & .contacto__iframe {
+        width: 60rem;
+        height: 60rem;
+        @include tablet {
+          width: 30rem;
+        }
+        @include mobile {
+          width: 30rem;
+          height: 30rem;
+        }
+      }
+      & .contacto__direccion {
+        @include tablet {
+          display: none !important;
+        }
+      }
+    }
+  }
+
+  & .contacto__formulario .contacto__form {
+    @include tablet {
+      width: 30rem;
+    }
+    width: 40rem;
+
+    & .contacto__btn {
+      width: 15rem;
+    }
+  }
+
+  #motivo,
+  #nombre,
+  #email,
+  #mensaje {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    margin: 1.5rem 0;
+    font-size: 2rem;
+    padding: 1rem;
+    font-family: $textoBuscador;
+    resize: none;
+  }
+}

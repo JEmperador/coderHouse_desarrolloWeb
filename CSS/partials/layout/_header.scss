@@ -1,0 +1,48 @@
+@import "../utilities/utilities";
+
+.header {
+  background-color: $negro;
+  @include tablet {
+    & .header__contenedor .header__nav .header__logo .header__img {
+      display: none !important;
+    }
+  }
+
+  @include mobile {
+    & .header__contenedor .header__nav .header__logo {
+      & .header__img {
+        display: inline-block !important;
+      }
+
+      & .header__name {
+        display: none !important;
+      }
+    }
+  }
+
+  & .header__contenedor .header__nav {
+    & .header__logo .header__name {
+      font-family: $textoLogo;
+      font-size: 4rem;
+      transform: skewX(175deg);
+      letter-spacing: 0.25rem;
+
+      &:hover {
+        color: $turquesa;
+      }
+    }
+
+    & .header__logo .header__img {
+      width: 6.4rem;
+      height: 6.4rem;
+    }
+
+    & .header__menu .header__lista .header__item {
+      font-family: $textoMenu;
+    }
+
+    & .header__menu .header__lista .header__item .header__link:hover {
+      color: $turquesa;
+    }
+  }
+}

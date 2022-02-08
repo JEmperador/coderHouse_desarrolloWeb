@@ -1,0 +1,40 @@
+@import "../utilities/utilities";
+
+.error404 {
+  & .error404__contenedor {
+    & .error404__img {
+      background-image: url("../../../src/assets/images/error404.jpg");
+      background-position: top;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+    }
+
+    & .error404__txt {
+      padding: 10.65%;
+      font-family: $textoLogo;
+      color: $blanco;
+      text-shadow: 4px 4px 1px #000000;
+
+      & .error404__titulo {
+        font-size: 30rem;
+      }
+
+      & .error404__subtitulo {
+        font-size: 5rem;
+      }
+
+      & .error404__descripcion {
+        color: $blanco;
+      }
+
+      & .error404__btn {
+        box-shadow: 4px 4px 1px #000000;
+        width: 15rem;
+        color: $negro;
+        text-shadow: none;
+        margin-top: 2rem;
+      }
+    }
+  }
+}

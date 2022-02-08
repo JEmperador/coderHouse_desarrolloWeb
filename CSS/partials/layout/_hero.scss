@@ -1,0 +1,52 @@
+@import "../utilities/utilities";
+
+.hero {
+  & .hero__contenedor {
+    & .hero__img {
+      background-image: url("../src/assets/images/heroImg.jpg");
+      background-position: top;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+
+      @include tablet {
+        & .hero__descripcion {
+          color: $blanco;
+        }
+      }
+
+      @include mobile {
+        & .hero__titulo {
+          padding-bottom: 0% !important;
+        }
+
+        & .hero__subtitulo {
+          display: none !important;
+        }
+
+        & .hero__descripcion {
+          padding: 0% 5% !important;
+          color: $blanco;
+        }
+      }
+
+      & .hero__txt {
+        color: $negro;
+        padding: 10% 5%;
+        font-family: $textoMenu;
+
+        & .hero__titulo {
+          font-size: 10rem;
+        }
+
+        & .hero__subtitulo {
+          font-size: 5rem;
+        }
+
+        & .hero__btn {
+          width: 15rem;
+        }
+      }
+    }
+  }
+}

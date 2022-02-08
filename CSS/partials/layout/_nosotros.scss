@@ -1,0 +1,30 @@
+@import "../utilities/utilities";
+
+.nosotros {
+  & .nosotros__fila {
+    @include tablet {
+      display: flex;
+      flex-direction: column;
+    }
+
+    & .nosotros__foto .nosotros__img {
+      width: 100%;
+      @include mobile {
+        width: 30rem;
+      }
+    }
+
+    & .nosotros__descripcion {
+      @include mobile {
+        & > p {
+          display: none !important;
+        }
+      }
+
+      & .nosotros__txt {
+        font-size: 2rem;
+        font-family: $textoBuscador;
+      }
+    }
+  }
+}

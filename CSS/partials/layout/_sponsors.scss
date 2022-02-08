@@ -1,0 +1,15 @@
+.sponsors {
+  .sponsors__contenedor {
+    background-color: white;
+
+    & .sponsors__columna {
+      width: 150px;
+      padding: 0;
+      margin: 0;
+    }
+  }
+
+  @include mobile {
+    display: none !important;
+  }
+}

@@ -1,0 +1,16 @@
+@import "../utilities/utilities";
+
+.opiniones {
+  .opiniones__columna {
+    background-color: $gris;
+    margin: 1rem;
+
+    .opiniones__opinion {
+      padding: 1rem;
+    }
+
+    .opiniones__txt {
+      color: $blanco;
+    }
+  }
+}

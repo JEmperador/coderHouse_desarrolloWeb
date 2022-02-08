@@ -1,0 +1,42 @@
+@import "../utilities/utilities";
+
+.integrantes {
+  & .integrantes__contenedor .integrantes__fila .integrantes__columna {
+    & .integrantes__imgNombrePuesto {
+      & .integrantes__img {
+        grid-area: integrantes__img;
+        width: 10rem;
+        height: 10rem;
+        border-radius: 5rem;
+        border: 1px solid black;
+      }
+
+      & .integrantes__nombre {
+        grid-area: integrantes__nombre;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        font-weight: bold;
+        font-family: $textoBuscador;
+      }
+
+      & .integrantes__puesto {
+        grid-area: integrantes__puesto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        font-weight: bold;
+        font-family: $textoBuscador;
+      }
+    }
+
+    & #integrantes__grilla {
+      display: grid;
+      grid-template-areas: "integrantes__img integrantes__nombre" "integrantes__img integrantes__puesto";
+    }
+  }
+}

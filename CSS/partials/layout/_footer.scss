@@ -1,0 +1,26 @@
+@import "../utilities/utilities";
+
+.footer {
+  background-color: $negro;
+  @include tablet {
+    & .footer__redes {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  @include mobile {
+    & .footer__redes {
+      display: none;
+    }
+  }
+
+  & .footer__fila .footer__link:hover {
+    color: $turquesa;
+  }
+
+  & .footer__contenedor .footer__fila .footer__columna .footer__mapaLink .footer__iframe {
+    width: 15rem;
+    border-radius: 0.25rem;
+  }
+}

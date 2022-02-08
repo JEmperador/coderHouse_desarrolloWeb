@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../../CSS/main.css" type="text/css" />
+    <meta name="name" content="Atlas Tech" />
+    <meta name="description" content="Ponete en contacto con Atlas Tech - Tu tienda" />
+    <meta name="keywords" content="Tecnologia, Desktop, Notebook, AMD, Intel, Minado, Placa de Video" />
+    <title>ATLAS TECH | Contacto</title>
+  </head>
+  <body>
+    <!--Header-->
+    <header class="header">
+      <!--Navbar-->
+      <div class="header__contenedor">
+        <nav class="navbar navbar-expand-lg bg-transparent header__nav">
+          <div class="container-fluid">
+            <!--Logo-Name-->
+            <a class="navbar-brand d-flex align-items-center header__logo" href="../../index.html">
+              <img src="../assets/images/logoNuevo_negro.png" alt="logo" class="d-inline-block align-text-top me-3 header__img" />
+              <p class="m-0 p-0 display-1 color--blanco header__name"><strong>ATLAS TECH</strong></p>
+            </a>
+            <button class="navbar-toggler header__btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon header__burgerMenu"></span>
+            </button>
+            <!--Navbar-Menu-->
+            <div class="collapse navbar-collapse justify-content-end header__menu" id="navbarNav">
+              <ul class="navbar-nav align-items-center header__lista">
+                <li class="nav-item ms-3 header__item">
+                  <a class="nav-link color--blanco header__link" href="../../index.html">INICIO</a>
+                </li>
+                <li class="nav-item ms-3 header__item">
+                  <a class="nav-link color--blanco header__link" href="tienda.html">TIENDA</a>
+                </li>
+                <li class="nav-item ms-3 header__item">
+                  <a class="nav-link color--blanco header__link" href="nosotros.html">NOSOTROS</a>
+                </li>
+                <li class="nav-item ms-3 header__item">
+                  <a class="nav-link color--turquesa header__link" href="#">CONTACTO</a>
+                </li>
+                <li class="nav-item ms-3 header__item">
+                  <a class="nav-link color--blanco header__link" href="ayuda.html">AYUDA</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main class="main pj-7">
+      <!--Contacto-->
+      <section class="contacto p-5">
+        <div class="contacto__contenedor p-5">
+          <h1 class="text-center display-1 pb-5 fw-bold contacto__titulo"><strong>Contactanos</strong></h1>
+          <div class="row align-items-center contacto__fila p-0 m-0">
+            <!--Mapa-Direccion-->
+            <div class="col d-flex flex-column align-items-center contacto__mapaDireccion">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.7792043428244!2d-65.20428317788749!3d-26.83284177418501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c0febbe97db%3A0x65937e9ca09416ef!2sCasa%20Hist%C3%B3rica%20de%20la%20Independencia!5e0!3m2!1ses!2sar!4v1640233860802!5m2!1ses!2sar" loading="lazy" class="contacto__iframe"></iframe>
+              <p class="contacto__direccion">Congreso 141, San Miguel de Tucuman, Tucuman, Argentina</p>
+            </div>
+            <!--Formulario-->
+            <div class="col d-flex flex-column align-items-center contacto__formulario">
+              <form action="" method="#" enctype="" class="contacto__form">
+                <div class="contacto__motivo">
+                  <select name="motivo" id="motivo">
+                    <option value="M0" disabled selected>Motivo</option>
+                    <option value="M1">Recomendaciones</option>
+                    <option value="M2">Devolución de productos</option>
+                    <option value="M3">Cambio de productos</option>
+                    <option value="M4">Desperfecto con productos</option>
+                    <option value="M5">Otro</option>
+                  </select>
+                </div>
+                <div class="contacto__nombre">
+                  <input type="text" name="nombre" placeholder="Nombre" required id="nombre" />
+                </div>
+                <div class="contacto__mail">
+                  <input type="text" name="email" placeholder="Correo Electrónico" required id="email" />
+                </div>
+                <div class="contacto__mensaje">
+                  <textarea name="txt-msg" id="mensaje" cols="30" rows="10" placeholder="Ingrese su comentario" required></textarea>
+                </div>
+                <div class="contacto__publicidad">
+                  <label for="mandatory">Desea recibir publicidad?</label>
+                  <input type="checkbox" name="condition" id="mandatory" value="1" />
+                </div>
+                <div class="contacto__enviar">
+                  <button type="submit" class="btn btn-primary contacto__btn"><p class="fs-1 m-0 p-0">Enviar</p></button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--Footer-->
+    <footer class="footer py-5 px-2">
+      <div class="container-fluid p-3 footer__contenedor">
+        <div class="row align-items-center footer__fila">
+          <!--Footer-Menu-->
+          <div class="col footer__columna">
+            <nav class="nav flex-column footer__menu">
+              <a class="nav-link px-0 py-1 link-light footer__link" href="../../index.html"><p class="fs-5">INICIO</p></a>
+              <a class="nav-link px-0 py-1 link-light footer__link" href="tienda.html"><p class="fs-5">TIENDA</p></a>
+              <a class="nav-link px-0 py-1 link-light footer__link" href="nosotros.html"><p class="fs-5">NOSOTROS</p></a>
+              <a class="nav-link px-0 py-1 link-light footer__link" href="contacto.html"><p class="fs-5">CONTACTO</p></a>
+              <a class="nav-link px-0 py-1 link-light footer__link" href="ayuda.html"><p class="fs-5">AYUDA</p></a>
+            </nav>
+          </div>
+          <!--Social-Networks-->
+          <div class="col d-flex justify-content-center footer__columna">
+            <nav class="nav footer__redes">
+              <a class="nav-link footer__redesTwitter" href="https://twitter.com/Jav_emperador">
+                <img src="../assets/images/twitter.png" alt="Twitter" />
+              </a>
+              <a class="nav-link footer__redesInstagram" href="https://www.instagram.com/javier_emperador/">
+                <img src="../assets/images/instagram.png" alt="Instagram" />
+              </a>
+              <a class="nav-link footer__redesYoutube" href="https://www.youtube.com/channel/UCp91xaiVYzd1S3SX_bNOWEw">
+                <img src="../assets/images/youtube.png" alt="YouTube" />
+              </a>
+            </nav>
+          </div>
+          <!--Map-Link-->
+          <div class="col d-flex justify-content-end footer__columna">
+            <div class="d-flex flex-column footer__mapaLink">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.7792043428244!2d-65.20428317788749!3d-26.83284177418501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c0febbe97db%3A0x65937e9ca09416ef!2sCasa%20Hist%C3%B3rica%20de%20la%20Independencia!5e0!3m2!1ses!2sar!4v1640233860802!5m2!1ses!2sar" loading="lazy" class="footer__iframe"></iframe>
+              <a href="contacto.html" class="nav-link link-light pt-1 m-0 footer__link"><p class="fs-5 text-center p-0 m-0">Donde estamos</p></a>
+            </div>
+          </div>
+        </div>
+        <!--Legal-->
+        <div class="row align-items-center footer__fila">
+          <nav class="nav d-flex justify-content-center footer__legales">
+            <a class="nav-link link-light p-0 mx-3 footer__link" href="#"><p class="fs-5">Terminos y condiciones</p></a>
+            <a class="nav-link link-light p-0 mx-3 footer__link" href="#"><p class="fs-5">Politica de privacidad</p></a>
+            <a class="nav-link link-light p-0 mx-3 footer__link" href="#"><p class="fs-5">Defensa del consumidor</p></a>
+          </nav>
+        </div>
+      </div>
+    </footer>
+    <!--WhatsApp-Fixed-->
+    <div class="fixed">
+      <a href="https://wa.me/5493816176941?text=Hola%20quiero%20realizar%20una%20compra"><img src="../assets/images/whatsapp.png" alt="Whatsapp" /></a>
+    </div>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>

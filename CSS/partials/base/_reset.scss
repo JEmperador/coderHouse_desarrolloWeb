@@ -1,0 +1,21 @@
+@import "../utilities/utilities";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $blanco;
+  font-size: 2rem !important;
+  font-family: $textoBuscador;
+}
+
+html {
+  font-size: 62.5% !important;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}

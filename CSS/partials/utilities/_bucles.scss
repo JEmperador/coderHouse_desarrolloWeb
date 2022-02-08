@@ -1,0 +1,21 @@
+@import "./utilities";
+
+$colores: (
+  "negro": $negro,
+  "gris": $gris,
+  "blanco": $blanco,
+  "turquesa": $turquesa,
+);
+
+@each $name, $color in $colores {
+  .color--#{$name} {
+    color: $color;
+  }
+}
+
+@for $i from 1 to 10 {
+  .pj-#{$i} {
+    padding-left: 1rem + $i;
+    padding-right: 1rem + $i;
+  }
+}

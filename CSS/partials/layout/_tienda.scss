@@ -1,0 +1,81 @@
+@import "../utilities/utilities";
+
+.tienda {
+  font-family: $textoBuscador;
+  & .tienda__contenedor {
+    & .tienda__titulo {
+      margin-top: 5rem;
+      margin-bottom: 2rem;
+    }
+    & .tienda__fila {
+      & .tienda__tituloProductos {
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+      }
+
+      & .tienda__columna .tienda__tarjeta {
+        border-radius: 0.5rem;
+        box-shadow: 2px 2px 20px #969696;
+        width: 40rem;
+        height: 45rem;
+        background-color: #f1f1f1;
+        padding: 2rem;
+        margin-bottom: 4rem;
+
+        & .tarjeta__img {
+          width: 30rem;
+          height: 30rem;
+        }
+
+        & .tarjeta__body {
+          & .tarjeta__titulo {
+            font-size: 2.5rem;
+          }
+
+          & .tarjeta__btn {
+            width: 15rem;
+          }
+
+          & .tarjeta__modal {
+            & .tarjeta__modalContenedor {
+              & .tarjeta__modalHeader {
+                & .tarjeta__modalTitulo {
+                  font-weight: bold;
+                }
+              }
+              & .tarjeta__modalBody {
+                padding: 2rem;
+
+                & > p {
+                  margin: 0;
+                  padding: 0;
+                  font-size: 1.5rem;
+                }
+
+                & .tarjeta__modalFila {
+                  & .tarjeta__modalColumna .tarjeta__modalPrecio {
+                    color: $turquesa;
+                  }
+
+                  & .tarjeta__modalTituloDescripcion {
+                    & .tarjeta__modalDescripcion {
+                      font-size: 1.5rem;
+                      padding-left: 2rem;
+                    }
+                  }
+                }
+              }
+
+              & .tarjeta__modalFooter {
+                & .tarjeta__modalBtnCerrar,
+                .tarjeta__modalBtnComprar {
+                  width: 15rem;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
