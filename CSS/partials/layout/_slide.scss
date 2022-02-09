@@ -1,4 +1,8 @@
 .slide {
+  @include mobile {
+    display: none;
+  }
+
   & .slide__contenedor .slide__carousel .slide__carouselContenedor .slide__item #img {
     width: 1600px;
     height: 580px;

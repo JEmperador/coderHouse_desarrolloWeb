@@ -6,33 +6,68 @@
     & .tienda__titulo {
       margin-top: 5rem;
       margin-bottom: 2rem;
+      @include tablet {
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
+      }
+
+      @include mobile {
+        font-size: 2.5rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+      }
     }
     & .tienda__fila {
       & .tienda__tituloProductos {
-        margin-top: 5rem;
+        margin-top: 2.5rem;
         margin-bottom: 2rem;
+        @include tablet {
+          font-size: 2.5rem;
+          margin-bottom: 1.5rem;
+        }
+
+        @include mobile {
+          font-size: 2rem;
+          margin-top: 1rem;
+          margin-bottom: 1rem;
+        }
       }
 
       & .tienda__columna .tienda__tarjeta {
         border-radius: 0.5rem;
         box-shadow: 2px 2px 20px #969696;
         width: 40rem;
-        height: 45rem;
+        height: 50rem;
         background-color: #f1f1f1;
         padding: 2rem;
         margin-bottom: 4rem;
+        @include tablet {
+          width: 30rem;
+          height: 40rem;
+        }
+
+        @include mobile {
+          width: 27.5rem;
+          height: 35rem;
+        }
 
         & .tarjeta__img {
-          width: 30rem;
-          height: 30rem;
+          max-width: 35rem;
+          max-height: 35rem;
         }
 
         & .tarjeta__body {
           & .tarjeta__titulo {
             font-size: 2.5rem;
+            @include mobile {
+              font-size: 1.5rem;
+            }
           }
 
           & .tarjeta__btn {
+            position: absolute;
+            bottom: 0;
+            margin-bottom: 1rem;
             width: 15rem;
           }
 

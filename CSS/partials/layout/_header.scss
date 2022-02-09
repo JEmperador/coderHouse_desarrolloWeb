@@ -39,6 +39,9 @@
 
     & .header__menu .header__lista .header__item {
       font-family: $textoMenu;
+      & .active {
+        color: $turquesa;
+      }
     }
 
     & .header__menu .header__lista .header__item .header__link:hover {

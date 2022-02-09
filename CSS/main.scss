@@ -1,16 +1,28 @@
 @import "./partials/utilities/bucles";
+/*RESET*/
 @import "./partials/base/reset";
+/*TIPOGRAFIA*/
 @import "./partials/base/typo";
+/*MEDIA-QUERIE(RESPONSIVE)*/
 @import "./partials/base/media-queries";
+/*BASICS*/
 @import "./partials/layout/header";
+@import "./partials/layout/footer";
+/*INDEX*/
 @import "./partials/layout/hero";
 @import "./partials/layout/sponsors";
 @import "./partials/layout/opiniones";
-@import "./partials/layout/footer";
-@import "./partials/layout/contacto";
-@import "./partials/layout/nosotros";
-@import "./partials/layout/integrantes";
+/*TIENDA*/
 @import "./partials/layout/slide";
 @import "./partials/layout/tienda";
+/*NOSOTROS*/
+@import "./partials/layout/nosotros";
+/*CONTACTO*/
+@import "./partials/layout/contacto";
+@import "./partials/layout/integrantes";
+/*AYUDA*/
+@import "./partials/layout/ayuda";
+/*WHATSAPP*/
 @import "./partials/layout/fixedWA";
+/*PAGE_404*/
 @import "./partials/layout/error404";
