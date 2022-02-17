@@ -1,6 +1,7 @@
 @import "../utilities/utilities";
 
 .footer {
+  font-family: $textoMenu;
   background-color: $negro;
   @include tablet {
     & .footer__redes {

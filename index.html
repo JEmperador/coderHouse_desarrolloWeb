@@ -58,12 +58,12 @@
         <div class="container-fluid m-0 p-0 hero__contenedor">
           <div class="hero__img">
             <div class="col-9 col-sm-12 hero__txt">
-              <h1 class="display-1 pb-5 hero__titulo" id="">ATLAS TECH</h1>
-              <h2 class="display-3 hero__subtitulo" id="">Te acercamos lo ultimo en tecnologia</h2>
+              <h1 class="display-1 pb-5 hero__titulo">ATLAS TECH</h1>
+              <h2 class="display-3 hero__subtitulo">Te acercamos lo ultimo en tecnologia</h2>
               <p class="display-5 py-5 hero__descripcion">Accede a nuestra tienda</p>
-              <button type="button" class="btn btn-primary hero__btn">
-                <a href="./src/pages/tienda.html" class="nav-link link-light p-0 m-0"><p class="fs-1 m-0 p-0">AQUI</p></a>
-              </button>
+              <div class="d-grid col-xxl-1 col-xl-2 col-md-4 col-sm-6 col-12 hero__btnContenedor">
+                <a class="btn btn-primary btn-lg hero__btnLink" href="./src/pages/tienda.html" role="button"><p class="fs-1 m-0 p-0 hero__btnTxt">AQUI</p></a>
+              </div>
             </div>
           </div>
         </div>
@@ -71,7 +71,7 @@
       <!--Sponsors-->
       <section class="sponsors px-5 pt-5 pb-3">
         <div class="container-fluid sponsors__contenedor">
-          <div class="row sponsors__fila">
+          <div class="row sponsors__filaDesktop">
             <div class="carousel slide col mx-1 sponsors__columna" data-bs-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active"><img src="./src/assets/images/sponsorAdata.jpg" class="d-block w-5" alt="Adata" /></div>
@@ -157,31 +157,139 @@
               </div>
             </div>
           </div>
+          <div class="row sponsors__filaLaptop">
+            <div class="carousel slide col mx-1 sponsors__columna" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active"><img src="./src/assets/images/sponsorAdata.jpg" class="d-block w-5" alt="Adata" /></div>
+                <div class="carousel-item"><img src="./src/assets/images/sponsorAmd.jpg" class="d-block w-5" alt="Amd" /></div>
+                <div class="carousel-item"><img src="./src/assets/images/sponsorCoolerMaster.jpg" class="d-block w-5" alt="CoolerMaster" /></div>
+              </div>
+            </div>
+            <div class="carousel slide col mx-1 sponsors__columna" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active"><img src="./src/assets/images/sponsorGeil.jpg" class="d-block w-5" alt="Geil" /></div>
+                <div class="carousel-item"><img src="./src/assets/images/sponsorNvidia.jpg" class="d-block w-5" alt="Nvidia" /></div>
+                <div class="carousel-item"><img src="./src/assets/images/sponsorRog.jpg" class="d-block w-5" alt="Rog" /></div>
+              </div>
+            </div>
+            <div class="carousel slide col mx-1 sponsors__columna" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active"><img src="./src/assets/images/sponsorTeam.jpg" class="d-block w-5" alt="Team" /></div>
+                <div class="carousel-item"><img src="./src/assets/images/sponsorThermalTake.jpg" class="d-block w-5" alt="ThermalTake" /></div>
+                <div class="carousel-item"><img src="./src/assets/images/sponsorWesternDigital.jpg" class="d-block w-5" alt="WesternDigital" /></div>
+              </div>
+            </div>
+            <div class="carousel slide col mx-1 sponsors__columna" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item"><img src="./src/assets/images/sponsorAdata.jpg" class="d-block w-5" alt="Adata" /></div>
+                <div class="carousel-item"><img src="./src/assets/images/sponsorAmd.jpg" class="d-block w-5" alt="Amd" /></div>
+                <div class="carousel-item active"><img src="./src/assets/images/sponsorZotac.jpg" class="d-block w-5" alt="Zotac" /></div>
+              </div>
+            </div>
+            <div class="carousel slide col mx-1 sponsors__columna" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active"><img src="./src/assets/images/sponsorCoolerMaster.jpg" class="d-block w-5" alt="CoolerMaster" /></div>
+                <div class="carousel-item"><img src="./src/assets/images/sponsorGeil.jpg" class="d-block w-5" alt="Geil" /></div>
+                <div class="carousel-item"><img src="./src/assets/images/sponsorNvidia.jpg" class="d-block w-5" alt="Nvidia" /></div>
+              </div>
+            </div>
+            <div class="carousel slide col mx-1 sponsors__columna" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active"><img src="./src/assets/images/sponsorRog.jpg" class="d-block w-5" alt="Rog" /></div>
+                <div class="carousel-item"><img src="./src/assets/images/sponsorTeam.jpg" class="d-block w-5" alt="Team" /></div>
+                <div class="carousel-item"><img src="./src/assets/images/sponsorThermalTake.jpg" class="d-block w-5" alt="ThermalTake" /></div>
+              </div>
+            </div>
+            <div class="carousel slide col mx-1 sponsors__columna" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item"><img src="./src/assets/images/sponsorAdata.jpg" class="d-block w-5" alt="Adata" /></div>
+                <div class="carousel-item active"><img src="./src/assets/images/sponsorWesternDigital.jpg" class="d-block w-5" alt="WesternDigital" /></div>
+                <div class="carousel-item"><img src="./src/assets/images/sponsorZotac.jpg" class="d-block w-5" alt="Zotac" /></div>
+              </div>
+            </div>
+          </div>
+          <div class="row sponsors__filaTablet">
+            <div class="carousel slide col mx-1 sponsors__columna" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active"><img src="./src/assets/images/sponsorAdata.jpg" class="d-block w-5" alt="Adata" /></div>
+                <div class="carousel-item"><img src="./src/assets/images/sponsorAmd.jpg" class="d-block w-5" alt="Amd" /></div>
+                <div class="carousel-item"><img src="./src/assets/images/sponsorCoolerMaster.jpg" class="d-block w-5" alt="CoolerMaster" /></div>
+              </div>
+            </div>
+            <div class="carousel slide col mx-1 sponsors__columna" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active"><img src="./src/assets/images/sponsorGeil.jpg" class="d-block w-5" alt="Geil" /></div>
+                <div class="carousel-item"><img src="./src/assets/images/sponsorNvidia.jpg" class="d-block w-5" alt="Nvidia" /></div>
+                <div class="carousel-item"><img src="./src/assets/images/sponsorRog.jpg" class="d-block w-5" alt="Rog" /></div>
+              </div>
+            </div>
+            <div class="carousel slide col mx-1 sponsors__columna" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active"><img src="./src/assets/images/sponsorTeam.jpg" class="d-block w-5" alt="Team" /></div>
+                <div class="carousel-item"><img src="./src/assets/images/sponsorThermalTake.jpg" class="d-block w-5" alt="ThermalTake" /></div>
+                <div class="carousel-item"><img src="./src/assets/images/sponsorWesternDigital.jpg" class="d-block w-5" alt="WesternDigital" /></div>
+              </div>
+            </div>
+            <div class="carousel slide col mx-1 sponsors__columna" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item"><img src="./src/assets/images/sponsorAdata.jpg" class="d-block w-5" alt="Adata" /></div>
+                <div class="carousel-item"><img src="./src/assets/images/sponsorAmd.jpg" class="d-block w-5" alt="Amd" /></div>
+                <div class="carousel-item active"><img src="./src/assets/images/sponsorZotac.jpg" class="d-block w-5" alt="Zotac" /></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--VISION, MISION, VALORES-->
+      <section class="cultura">
+        <div class="container cultura__contenedor">
+          <h2 class="row text-center display-3 cultura__titulo"><strong>Nuestro Equipo</strong></h2>
+          <div class="row d-flex justify-content-between align-items-center cultura__fila">
+            <div class="col cultura__vl cultura__columna--mod"></div>
+            <div class="col-md-3 col-12 cultura__columna">
+              <h3 class="text-xxl-start text-xl-start text-md-center mb-2 display-5 cultura__tituloVision">Visión</h3>
+              <p class="text-xxl-start text-xl-start text-md-center">Expandirnos regionalmente con el fin de distribuir nuestros productos y servicios.</p>
+            </div>
+            <div class="col cultura__vl cultura__columna--mod"></div>
+            <div class="col-md-3 col-12 cultura__columna">
+              <h3 class="text-xxl-start text-xl-start text-md-center mb-2 display-5 cultura__tituloValores">Valores</h3>
+              <p class="text-xxl-start text-xl-start text-md-center">Creemos en el crecimiento de las personas que nos acompañan, transparencia y honestidad son nuestros pilares.</p>
+            </div>
+            <div class="col cultura__vl cultura__columna--mod"></div>
+            <div class="col-md-3 col-12 cultura__columna">
+              <h3 class="text-xxl-start text-xl-start text-md-center mb-2 display-5 cultura__tituloMision">Misión</h3>
+              <p class="text-xxl-start text-xl-start text-md-center">Brindar lo ultimo en tecnologia mediante la mejor atencion al cliente disponible.</p>
+            </div>
+          </div>
         </div>
       </section>
       <!--Nuestros-Clientes-->
-      <section class="opiniones pb-5">
+      <section class="opiniones mb-5">
         <div class="container opiniones__contenedor">
           <div class="row align-items-center opiniones__fila">
             <h2 class="text-center my-5 display-3 opiniones__titulo"><strong>Nuestros Clientes</strong></h2>
             <div class="col d-flex justify-content-center opiniones__columna" data-aos="zoom-in" data-aos-easing="ease-in-back" data-aos-delay="200" data-aos-offset="0">
-              <div class="d-flex opiniones__opinion">
-                <p class="text-start fs-3 m-0 opiniones__txt">Genial atención y soporte tecnico, muy recomendado.</p>
+              <div class="d-flex flex-column opiniones__opinion">
+                <p class="text-start fs-3 m-0 opiniones__txt">Su personal es muy buena onda, no me canso de recomendarlos.</p>
+                <p class="text-end fs-5 m-0 opiniones__txt">-Leonardo</p>
               </div>
             </div>
             <div class="col d-flex justify-content-center opiniones__columna" data-aos="zoom-in" data-aos-easing="ease-in-back" data-aos-delay="200" data-aos-offset="0">
-              <div class="d-flex opiniones__opinion">
+              <div class="d-flex flex-column opiniones__opinion">
                 <p class="text-start fs-3 m-0 opiniones__txt">Realizaron el armado sin costo, el vendedor es muy amable.</p>
+                <p class="text-end fs-5 m-0 opiniones__txt">-Michelangelo</p>
               </div>
             </div>
             <div class="col d-flex justify-content-center opiniones__columna" data-aos="zoom-in" data-aos-easing="ease-in-back" data-aos-delay="200" data-aos-offset="0">
-              <div class="d-flex opiniones__opinion">
+              <div class="d-flex flex-column opiniones__opinion">
                 <p class="text-start fs-3 m-0 opiniones__txt">Mandaron mi pedido el mismo dia que hice la, gracias AT.</p>
+                <p class="text-end fs-5 m-0 opiniones__txt">-Raphael</p>
               </div>
             </div>
             <div class="col d-flex justify-content-center opiniones__columna" data-aos="zoom-in" data-aos-easing="ease-in-back" data-aos-delay="200" data-aos-offset="0">
-              <div class="d-flex opiniones__opinion">
+              <div class="d-flex flex-column opiniones__opinion">
                 <p class="text-start fs-3 m-0 opiniones__txt">Resolvieron todas mis dudas y armaron mi PC a medida.</p>
+                <p class="text-end fs-5 m-0 opiniones__txt">-Donatello</p>
               </div>
             </div>
           </div>

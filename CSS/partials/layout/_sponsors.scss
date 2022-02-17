@@ -2,6 +2,36 @@
   .sponsors__contenedor {
     background-color: white;
 
+    & .sponsors__filaLaptop {
+      display: none;
+    }
+
+    & .sponsors__filaTablet {
+      display: none;
+    }
+
+    @include laptop {
+      & .sponsors__filaLaptop {
+        display: inline;
+        display: flex;
+      }
+
+      & .sponsors__filaDesktop {
+        display: none !important;
+      }
+    }
+
+    @include tablet {
+      & .sponsors__filaTablet {
+        display: inline;
+        display: flex;
+      }
+
+      & .sponsors__filaLaptop {
+        display: none !important;
+      }
+    }
+
     & .sponsors__columna {
       width: 150px;
       padding: 0;

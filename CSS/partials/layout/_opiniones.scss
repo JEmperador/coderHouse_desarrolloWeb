@@ -1,16 +1,25 @@
 @import "../utilities/utilities";
 
 .opiniones {
-  .opiniones__columna {
-    background-color: $gris;
-    margin: 1rem;
+  & .opiniones__contenedor {
+    margin: 10rem auto;
+    & .opiniones__columna {
+      background-color: $gris;
+      margin: 1rem;
 
-    .opiniones__opinion {
-      padding: 1rem;
-    }
+      & .opiniones__opinion {
+        padding: 1rem;
+      }
 
-    .opiniones__txt {
-      color: $blanco;
+      @include laptop {
+        & .opiniones__opinion {
+          min-height: 11.5rem;
+        }
+      }
+
+      & .opiniones__txt {
+        color: $blanco;
+      }
     }
   }
 }

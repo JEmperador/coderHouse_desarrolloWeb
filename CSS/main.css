@@ -1,4 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;700&family=Inconsolata:wght@200;400&family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@800&display=swap");
 .color--negro {
   color: #222831;
 }
@@ -83,6 +86,10 @@ html {
 }
 
 /*TIPOGRAFIA*/
+/*Texto General*/
+/*Texto Logo*/
+/*Texto Menu*/
+/*Texto Hero*/
 /*MEDIA-QUERIE(RESPONSIVE)*/
 /*BASICS*/
 .header {
@@ -134,6 +141,7 @@ html {
 }
 
 .footer {
+  font-family: "DM Sans", sans-serif;
   background-color: #222831;
 }
 
@@ -182,6 +190,7 @@ html {
 @media screen and (max-width: 320px) {
   .hero .hero__contenedor .hero__img .hero__titulo {
     padding-bottom: 0% !important;
+    font-size: 7.5rem !important;
   }
   .hero .hero__contenedor .hero__img .hero__subtitulo {
     display: none !important;
@@ -195,23 +204,56 @@ html {
 .hero .hero__contenedor .hero__img .hero__txt {
   color: #222831;
   padding: 10% 5%;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
 }
 
 .hero .hero__contenedor .hero__img .hero__txt .hero__titulo {
   font-size: 10rem;
+  letter-spacing: 0.25rem;
 }
 
 .hero .hero__contenedor .hero__img .hero__txt .hero__subtitulo {
   font-size: 5rem;
 }
 
-.hero .hero__contenedor .hero__img .hero__txt .hero__btn {
+.hero .hero__contenedor .hero__img .hero__txt .hero__btnLink {
   width: 15rem;
 }
 
 .sponsors .sponsors__contenedor {
   background-color: white;
+}
+
+.sponsors .sponsors__contenedor .sponsors__filaLaptop {
+  display: none;
+}
+
+.sponsors .sponsors__contenedor .sponsors__filaTablet {
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .sponsors .sponsors__contenedor .sponsors__filaLaptop {
+    display: inline;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .sponsors .sponsors__contenedor .sponsors__filaDesktop {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sponsors .sponsors__contenedor .sponsors__filaTablet {
+    display: inline;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .sponsors .sponsors__contenedor .sponsors__filaLaptop {
+    display: none !important;
+  }
 }
 
 .sponsors .sponsors__contenedor .sponsors__columna {
@@ -226,16 +268,64 @@ html {
   }
 }
 
-.opiniones .opiniones__columna {
+.cultura .cultura__contenedor {
+  margin: 10rem auto;
+}
+
+.cultura .cultura__contenedor .cultura__titulo {
+  margin-bottom: 5rem;
+}
+
+.cultura .cultura__contenedor .cultura__fila .cultura__columna {
+  margin-right: 5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .cultura .cultura__contenedor .cultura__fila .cultura__columna {
+    margin-right: 0;
+  }
+}
+
+.cultura .cultura__contenedor .cultura__fila .cultura__vl {
+  border-left: 2px solid #00adb5;
+  max-width: 2px;
+  height: 150px;
+}
+
+@media screen and (max-width: 768px) {
+  .cultura .cultura__contenedor .cultura__fila .cultura__vl {
+    display: none !important;
+  }
+}
+
+.cultura .cultura__contenedor .cultura__fila .cultura__tituloVision,
+.cultura .cultura__contenedor .cultura__fila .cultura__tituloValores,
+.cultura .cultura__contenedor .cultura__fila .cultura__tituloMision {
+  font-weight: bold;
+  color: #00adb5;
+  margin: 0;
+}
+
+.opiniones .opiniones__contenedor {
+  margin: 10rem auto;
+}
+
+.opiniones .opiniones__contenedor .opiniones__columna {
   background-color: #393e46;
   margin: 1rem;
 }
 
-.opiniones .opiniones__columna .opiniones__opinion {
+.opiniones .opiniones__contenedor .opiniones__columna .opiniones__opinion {
   padding: 1rem;
 }
 
-.opiniones .opiniones__columna .opiniones__txt {
+@media screen and (max-width: 1200px) {
+  .opiniones .opiniones__contenedor .opiniones__columna .opiniones__opinion {
+    min-height: 11.5rem;
+  }
+}
+
+.opiniones .opiniones__contenedor .opiniones__columna .opiniones__txt {
   color: #eeeeee;
 }
 
@@ -393,6 +483,22 @@ html {
   }
 }
 
+.nosotros .nosotros__fila .nosotros__descripcion {
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .nosotros .nosotros__fila .nosotros__descripcion > .nosotros__txt {
+    font-size: 1.25rem !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nosotros .nosotros__fila .nosotros__descripcion > .nosotros__txt {
+    font-size: 1.5rem !important;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .nosotros .nosotros__fila .nosotros__descripcion > p {
     display: none !important;
@@ -458,6 +564,10 @@ html {
   resize: none;
 }
 
+.integrantes .integrantes__contenedor .integrantes__fila .integrantes__columna {
+  margin-bottom: 2rem;
+}
+
 .integrantes .integrantes__contenedor .integrantes__fila .integrantes__columna .integrantes__imgNombrePuesto .integrantes__img {
   -ms-grid-row: 1;
   -ms-grid-row-span: 2;
@@ -488,7 +598,6 @@ html {
           align-items: center;
   font-size: 2rem;
   font-weight: bold;
-  font-family: "Quicksand", sans-serif;
 }
 
 .integrantes .integrantes__contenedor .integrantes__fila .integrantes__columna .integrantes__imgNombrePuesto .integrantes__puesto {
@@ -510,7 +619,6 @@ html {
           align-items: center;
   font-size: 2rem;
   font-weight: bold;
-  font-family: "Quicksand", sans-serif;
 }
 
 .integrantes .integrantes__contenedor .integrantes__fila .integrantes__columna #integrantes__grilla {

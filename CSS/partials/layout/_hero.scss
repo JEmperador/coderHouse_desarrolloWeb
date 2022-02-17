@@ -18,6 +18,7 @@
       @include mobile {
         & .hero__titulo {
           padding-bottom: 0% !important;
+          font-size: 7.5rem !important;
         }
 
         & .hero__subtitulo {
@@ -33,17 +34,18 @@
       & .hero__txt {
         color: $negro;
         padding: 10% 5%;
-        font-family: $textoMenu;
+        font-family: $textoHero;
 
         & .hero__titulo {
           font-size: 10rem;
+          letter-spacing: 0.25rem;
         }
 
         & .hero__subtitulo {
           font-size: 5rem;
         }
 
-        & .hero__btn {
+        & .hero__btnLink {
           width: 15rem;
         }
       }

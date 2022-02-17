@@ -1,0 +1,37 @@
+@import "../utilities/utilities";
+
+.cultura {
+  & .cultura__contenedor {
+    margin: 10rem auto;
+
+    & .cultura__titulo {
+      margin-bottom: 5rem;
+    }
+    & .cultura__fila {
+      @include tablet {
+      }
+      & .cultura__columna {
+        margin-right: 5rem;
+        @include tablet {
+          margin-right: 0;
+        }
+      }
+      & .cultura__vl {
+        border-left: 2px solid $turquesa;
+        max-width: 2px;
+        height: 150px;
+        @include tablet {
+          display: none !important;
+        }
+      }
+
+      & .cultura__tituloVision,
+      .cultura__tituloValores,
+      .cultura__tituloMision {
+        font-weight: bold;
+        color: $turquesa;
+        margin: 0;
+      }
+    }
+  }
+}
