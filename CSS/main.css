@@ -341,10 +341,6 @@ html {
   height: 580px;
 }
 
-.tienda {
-  font-family: "Quicksand", sans-serif;
-}
-
 .tienda .tienda__contenedor .tienda__titulo {
   margin-top: 5rem;
   margin-bottom: 2rem;
@@ -507,7 +503,6 @@ html {
 
 .nosotros .nosotros__fila .nosotros__descripcion .nosotros__txt {
   font-size: 2rem;
-  font-family: "Quicksand", sans-serif;
 }
 
 /*CONTACTO*/
@@ -560,7 +555,6 @@ html {
   margin: 1.5rem 0;
   font-size: 2rem;
   padding: 1rem;
-  font-family: "Quicksand", sans-serif;
   resize: none;
 }
 
@@ -647,9 +641,30 @@ html {
   opacity: 1;
 }
 
+.fixed--mod {
+  background-color: #eeeeee;
+  border-radius: 1rem;
+  -webkit-box-shadow: 2px 2px 20px #0000004f;
+          box-shadow: 2px 2px 20px #0000004f;
+  position: fixed;
+  left: 0rem;
+  bottom: -1.5rem;
+  padding: 0.75rem;
+}
+
+.fixed--mod > a {
+  text-decoration: none;
+}
+
+.fixed--mod > a > p {
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: #222831;
+}
+
 /*PAGE_404*/
 .error404 .error404__contenedor .error404__img {
-  background-image: url("../../../src/assets/images/error404.jpg");
+  background-color: #f1f1f1;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
