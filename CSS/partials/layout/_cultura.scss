@@ -8,8 +8,6 @@
       margin-bottom: 5rem;
     }
     & .cultura__fila {
-      @include tablet {
-      }
       & .cultura__columna {
         margin-right: 5rem;
         @include tablet {
@@ -31,6 +29,15 @@
         font-weight: bold;
         color: $turquesa;
         margin: 0;
+        @include mobile {
+          text-align: center;
+        }
+      }
+
+      & .cultura__txt {
+        @include mobile {
+          text-align: center;
+        }
       }
     }
   }

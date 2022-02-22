@@ -1,7 +1,6 @@
 @import "../utilities/utilities";
 
 .footer {
-  font-family: $textoMenu;
   background-color: $negro;
   @include tablet {
     & .footer__redes {
@@ -20,8 +19,11 @@
     color: $turquesa;
   }
 
-  & .footer__contenedor .footer__fila .footer__columna .footer__mapaLink .footer__iframe {
-    width: 15rem;
-    border-radius: 0.25rem;
+  & .footer__contenedor {
+    max-width: 1200px;
+    & .footer__fila .footer__columna .footer__mapaLink .footer__iframe {
+      width: 15rem;
+      border-radius: 0.25rem;
+    }
   }
 }

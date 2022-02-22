@@ -141,7 +141,6 @@ html {
 }
 
 .footer {
-  font-family: "DM Sans", sans-serif;
   background-color: #222831;
 }
 
@@ -165,6 +164,10 @@ html {
 
 .footer .footer__fila .footer__link:hover {
   color: #00adb5;
+}
+
+.footer .footer__contenedor {
+  max-width: 1200px;
 }
 
 .footer .footer__contenedor .footer__fila .footer__columna .footer__mapaLink .footer__iframe {
@@ -304,6 +307,20 @@ html {
   font-weight: bold;
   color: #00adb5;
   margin: 0;
+}
+
+@media screen and (max-width: 320px) {
+  .cultura .cultura__contenedor .cultura__fila .cultura__tituloVision,
+  .cultura .cultura__contenedor .cultura__fila .cultura__tituloValores,
+  .cultura .cultura__contenedor .cultura__fila .cultura__tituloMision {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cultura .cultura__contenedor .cultura__fila .cultura__txt {
+    text-align: center;
+  }
 }
 
 .opiniones .opiniones__contenedor {
@@ -660,54 +677,5 @@ html {
   font-weight: bold;
   font-size: 1.25rem;
   color: #222831;
-}
-
-/*PAGE_404*/
-.error404 .error404__contenedor .error404__img {
-  background-color: #f1f1f1;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-@media screen and (max-width: 768px) {
-  .error404 .error404__contenedor .error404__img {
-    background-size: center;
-  }
-}
-
-.error404 .error404__contenedor .error404__txt {
-  padding: 10.65%;
-  font-family: "Bebas Neue", cursive;
-  color: #eeeeee;
-  text-shadow: 4px 4px 1px #000000;
-}
-
-.error404 .error404__contenedor .error404__txt .error404__titulo {
-  font-size: 30rem;
-}
-
-@media screen and (max-width: 320px) {
-  .error404 .error404__contenedor .error404__txt .error404__titulo {
-    font-size: 20rem;
-  }
-}
-
-.error404 .error404__contenedor .error404__txt .error404__subtitulo {
-  font-size: 5rem;
-}
-
-.error404 .error404__contenedor .error404__txt .error404__descripcion {
-  color: #eeeeee;
-}
-
-.error404 .error404__contenedor .error404__txt .error404__btn {
-  -webkit-box-shadow: 4px 4px 1px #000000;
-          box-shadow: 4px 4px 1px #000000;
-  width: 15rem;
-  color: #222831;
-  text-shadow: none;
-  margin-top: 2rem;
 }
 /*# sourceMappingURL=main.css.map */
