@@ -581,6 +581,14 @@ html {
   resize: none;
 }
 
+@media screen and (max-width: 460px) {
+  .integrantes .integrantes__contenedor .integrantes__fila .integrantes__columna {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 .integrantes .integrantes__contenedor .integrantes__fila .integrantes__columna {
   margin-bottom: 2rem;
 }
