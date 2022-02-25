@@ -1,4 +1,8 @@
 .slide {
+  @include mobileM {
+    display: none;
+  }
+
   @include mobile {
     display: none;
   }
