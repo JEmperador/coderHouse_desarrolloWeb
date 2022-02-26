@@ -64,6 +64,8 @@
           }
 
           & .tarjeta__btn {
+            background-color: $turquesa;
+            border-color: #00a3ab;
             position: absolute;
             bottom: 0;
             margin-bottom: 1rem;
@@ -101,8 +103,16 @@
               }
 
               & .tarjeta__modalFooter {
+                & .tarjeta__modalBtnComprar {
+                  background-color: $turquesa;
+                  border-color: #00a3ab;
+                }
+                & .tarjeta__modalBtnCerrar {
+                  background-color: red;
+                  border-color: #dc143c;
+                }
                 & .tarjeta__modalBtnCerrar,
-                .tarjeta__modalBtnComprar {
+                & .tarjeta__modalBtnComprar {
                   width: 15rem;
                 }
               }

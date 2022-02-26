@@ -220,6 +220,8 @@ html {
 }
 
 .hero .hero__contenedor .hero__img .hero__txt .hero__btnLink {
+  background-color: #00adb5;
+  border-color: #00a3ab;
   width: 15rem;
 }
 
@@ -445,6 +447,8 @@ html {
 }
 
 .tienda .tienda__contenedor .tienda__fila .tienda__columna .tienda__tarjeta .tarjeta__body .tarjeta__btn {
+  background-color: #00adb5;
+  border-color: #00a3ab;
   position: absolute;
   bottom: 0;
   margin-bottom: 1rem;
@@ -472,6 +476,16 @@ html {
 .tienda .tienda__contenedor .tienda__fila .tienda__columna .tienda__tarjeta .tarjeta__body .tarjeta__modal .tarjeta__modalContenedor .tarjeta__modalBody .tarjeta__modalFila .tarjeta__modalTituloDescripcion .tarjeta__modalDescripcion {
   font-size: 1.5rem;
   padding-left: 2rem;
+}
+
+.tienda .tienda__contenedor .tienda__fila .tienda__columna .tienda__tarjeta .tarjeta__body .tarjeta__modal .tarjeta__modalContenedor .tarjeta__modalFooter .tarjeta__modalBtnComprar {
+  background-color: #00adb5;
+  border-color: #00a3ab;
+}
+
+.tienda .tienda__contenedor .tienda__fila .tienda__columna .tienda__tarjeta .tarjeta__body .tarjeta__modal .tarjeta__modalContenedor .tarjeta__modalFooter .tarjeta__modalBtnCerrar {
+  background-color: red;
+  border-color: #dc143c;
 }
 
 .tienda .tienda__contenedor .tienda__fila .tienda__columna .tienda__tarjeta .tarjeta__body .tarjeta__modal .tarjeta__modalContenedor .tarjeta__modalFooter .tarjeta__modalBtnCerrar,
@@ -564,6 +578,8 @@ html {
 }
 
 .contacto .contacto__formulario .contacto__form .contacto__btn {
+  background-color: #00adb5;
+  border-color: #00a3ab;
   width: 15rem;
 }
 
