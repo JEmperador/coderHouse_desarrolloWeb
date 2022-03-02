@@ -15,7 +15,7 @@
 
 # Historia
 
-<p>El nombre de nuestra sociedad parte del libro <a href="https://es.wikipedia.org/wiki/La_rebeli%C3%B3n_de_Atlas"><span style="color:gold">La rebelion de Atlas</span></a> (<a href="https://en.wikipedia.org/wiki/Atlas_Shrugged"><span style="color:gold">Atlas Shrugged</span></a> en ingles) novela literaria de <a href="https://es.wikipedia.org/wiki/Ayn_Rand"><span style="color:gold">Aynd Rand</span></a>; la cual recomendamos lean para continuar cultivando la mente.</p>
+<p>El nombre de nuestra sociedad parte del libro <a href="https://es.wikipedia.org/wiki/La_rebeli%C3%B3n_de_Atlas"><span style="color:gold">La rebelion de Atlas</span></a> (<a href="https://en.wikipedia.org/wiki/Atlas_Shrugged"><span style="color:gold">Atlas Shrugged</span></a> en ingles) novela literaria de <a href="https://es.wikipedia.org/wiki/Ayn_Rand"><span style="color:gold">Ayn Rand</span></a>; la cual recomendamos lean para continuar cultivando la mente.</p>
 
 <p>Esta Sociedad fue creada como un proyecto personal en el año 2020, en casa de su fundador Javier Emperador.</p>
 
