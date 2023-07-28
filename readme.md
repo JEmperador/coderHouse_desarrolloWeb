@@ -19,7 +19,7 @@
 
 <p>Esta Sociedad fue creada como un proyecto personal en el año 2020, en casa de su fundador Javier Emperador.</p>
 
-<p><span style="color:gold"><b>Atlas Tech</b></span> busca llevar lo ultimo en tecnologia y brindar la mejor atencion al cliente, menteniendo a nuestros colaboradores capacitados y motivandolos a desarrollarse constantemente.</p>
+<p><span style="color:gold"><b>Atlas Tech</b></span> busca llevar lo ultimo en tecnologia y brindar la mejor atencion al cliente, manteniendo a nuestros colaboradores capacitados y motivandolos a desarrollarse constantemente.</p>
 
 <p>Nuestros pilares son la <span style="color:gold">Libertad</span> y el <span style="color:gold">Trabajo</span> que nos unen con el fin comercializar con aquellos que desean adquirir nuestros productos y servicios.</p>
 
